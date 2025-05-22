@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ojonugwa.jpg" alt="Ojonugwa Wada" width="180" style="border-radius: 50%; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="180" style="border-radius: 50%; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
 # 🧠 Ojonugwa Wada – Data Science & AgriTech Portfolio
