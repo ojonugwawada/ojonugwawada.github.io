@@ -1,3 +1,33 @@
+<!-- Colored Banner Header -->
+<div style="background: #0A66C2; padding: 15px 30px; border-radius: 8px; color: white;">
+  <h2>🌍 Data Science | AgriTech | Machine Learning Enthusiast</h2>
+</div>
+
+<!-- Profile Intro -->
+<table style="margin-top: 20px;">
+  <tr>
+    <td width="150">
+      <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" style="border-radius: 50%; border: 3px solid #ccc; object-fit: cover; padding: 4px;" />
+    </td>
+    <td style="padding-left: 20px; vertical-align: top;">
+      <h3>👋 Hi, I'm <strong>Ojonugwa Wada</strong></h3>
+      <p><strong>Data Scientist | AgriTech Innovator | ML Enthusiast</strong></p>
+      <p>Leveraging data science to build smart, sustainable systems for rural development, education, and financial inclusion.</p>
+      <p>
+        <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7">
+          <img src="https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="mailto:ojonugwawada67@gmail.com">
+          <img src="https://img.shields.io/badge/Email-Contact-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+        <a href="https://ojonugwawada.github.io">
+          <img src="https://img.shields.io/badge/Portfolio-Website-%23117ACA?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## 👋 Hi, I’m Ojonugwa Wada
 
 <img src="ojonugwa.jpg.jpeg" width="130" align="left" style="border-radius: 50%; border: 2px solid #ccc; margin-right: 20px;" />
