@@ -1,6 +1,15 @@
-<p align="center">
-  <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="180" style="border-radius: 50%; border: 2px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</p>
+<table>
+  <tr>
+    <td width="160">
+      <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" style="border-radius: 50%; border: 2px solid #ccc;">
+    </td>
+    <td>
+      <h1>🧠 Ojonugwa Wada – Data Science & AgriTech Portfolio</h1>
+      <p>Welcome to my personal portfolio showcasing practical applications of data science, machine learning, and research focused on <strong>AgriTech</strong>, <strong>education</strong>, <strong>sustainability</strong>, and <strong>financial inclusion</strong>.</p>
+    </td>
+  </tr>
+</table>
+
 
 # 🧠 Ojonugwa Wada – Data Science & AgriTech Portfolio
 
