@@ -1,19 +1,22 @@
-<p align="center">
-  <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" style="border-radius: 50%; border: 2px solid #ccc; margin-bottom: 10px;" />
-</p>
-
-<h2 align="center" style="margin-top: -20px;">🧠 Data Science & AgriTech Portfolio</h2>
-
-<p align="center" style="margin-top: -10px;"><em><strong>Leveraging machine learning and analytics for sustainable innovation</strong></em></p>
-
-<p align="center" style="margin-top: -5px;">
-  <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:ojonugwawada67@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="140" valign="top">
+      <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="120" style="border-radius: 50%; border: 2px solid #ccc;" />
+    </td>
+    <td valign="top" style="padding-left: 15px;">
+      <h2>🧠 Data Science & AgriTech Portfolio</h2>
+      <p><em><strong>Leveraging machine learning and analytics for sustainable innovation</strong></em></p>
+      <p>
+        <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7">
+          <img src="https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="mailto:ojonugwawada67@gmail.com">
+          <img src="https://img.shields.io/badge/Email-Contact-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
