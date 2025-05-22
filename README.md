@@ -107,10 +107,9 @@ Disaster response, first aid, and outreach to underserved communities.
 ---
 
 ## 📬 Let's Connect
-
-- 📧 **Email:** [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)  
-- 🌐 **GitHub Portfolio:** [ojonugwawada.github.io](https://ojonugwawada.github.io)  
-- 🔗 **LinkedIn:** [linkedin.com/in/ojonugwa-wada-47ba55b7](https://linkedin.com/in/ojonugwa-wada-47ba55b7)
+- **Email**: [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)
+- **GitHub**: [github.com/ojonugwawada](https://github.com/ojonugwawada)
+- **LinkedIn**: [Ojonugwa Wada](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
 
 <!-- Uncomment below if you upload your CV -->
 <!--
