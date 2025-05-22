@@ -1,152 +1,98 @@
-<table>
-  <tr>
-    <td width="140" valign="top">
-      <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="120" style="border-radius: 50%; border: 2px solid #ccc;" />
-    </td>
-    <td valign="top" style="padding-left: 15px;">
-      <h2>🧠 Data Science & AgriTech Portfolio</h2>
-      <p><em><strong>Leveraging machine learning and analytics for sustainable innovation</strong></em></p>
-      <p>
-        <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7">
-          <img src="https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="mailto:ojonugwawada67@gmail.com">
-          <img src="https://img.shields.io/badge/Email-Contact-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+## 👋 Hi, I’m Ojonugwa Wada
+
+<img src="ojonugwa.jpg.jpeg" width="130" align="left" style="border-radius: 50%; border: 2px solid #ccc; margin-right: 20px;" />
+
+**Data Scientist | AgriTech Innovator | ML Enthusiast**  
+Leveraging data science to build smart, sustainable systems for rural development, education, and financial inclusion.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
+[![Email](https://img.shields.io/badge/Email-Contact-%23EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ojonugwawada67@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Website-Portfolio-%23117ACA?style=flat-square&logo=githubpages&logoColor=white)](https://ojonugwawada.github.io)
 
 ---
 
-## 🧑‍💼 Professional Summary
+## 🧠 Skills & Tools
 
-I am a data scientist and business strategist passionate about driving innovation through AI, data analytics, and sustainable systems. With a strong foundation in both financial systems and machine learning, I have delivered impactful solutions in AgriTech, compliance analytics, and AI-powered business models.
-
----
-
-## 🛠️ Technical Skills
-
-- **Languages & Tools**: Python, R, SQL, Tableau, Pandas, NumPy  
-- **AI & ML**: Image Classification, Supervised Learning, Predictive Modeling  
-- **Business & Finance**: Risk Management, Strategic Consulting, Compliance Analytics  
-- **Domains**: AgriTech, Sustainability, Educational Analytics, Financial Innovation
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 ---
 
-## 🎓 Education
+## 🚀 Projects
 
-- **MSc in Data Science** *(In Progress)*  
-  *University of Roehampton, London, UK* (2025–2026)
+### 🧠 [Waste Classification Using Deep Learning](https://github.com/ojonugwawada/waste-classification-efficientnet)  
+Classifies waste images using EfficientNet-B0 for smart waste sorting.  
+**Tech:** TensorFlow, OpenCV | **Accuracy:** 94%
 
-- **BSc in Banking and Finance**  
-  *ISCG University, Cotonou, Benin* (2015–2018)
+### 📊 [HR Analytics: Workforce Engagement](https://github.com/ojonugwawada/hr-engagement-performance-analysis)  
+Analyzes HR patterns, fairness, and compensation.  
+**Tech:** Pandas, Seaborn | **Insight:** Detected 15% pay disparity
 
-- **Diploma in Civil Engineering**  
-  *Federal Polytechnic, Nigeria* (2012–2014)
+### 🎓 [Student Performance Prediction](https://github.com/ojonugwawada/student-performance-prediction-system)  
+Predicts student academic outcomes using ML classification.  
+**Tech:** Scikit-learn, XGBoost | **F1-Score:** 0.89
+
+### 📘 [Educational Decision Support System](https://github.com/ojonugwawada/educational-decision-support-system)  
+Regression-based tool to forecast scores with scenario testing.  
+**Tech:** Flask, Matplotlib | **R² Score:** 0.82
 
 ---
 
-## 💼 Work Experience
+## 📚 Research & Presentations
 
-### **Business Analyst – XWAP Solutions Limited** *(Feb 2023 – Dec 2024)*  
-- Delivered data-driven compliance insights, reducing violation trends by 30%  
-- Developed leadership dashboards and predictive risk models  
-- Collaborated cross-functionally to streamline regulatory reporting
+- **Optimizing Crop Yield Prediction** – Satellite + Soil ML models (2023)  
+- **Financial Inclusion in Rural Communities** – Data for microfinance policy (2022)  
+- [📂 Full Research Collection →](https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC)
 
-### **Project & Business Development Manager – FINSENSE Coop Ltd** *(Nov 2021 – Jan 2023)*  
-- Launched AI-powered Agri marketplace, growing trade volume by 35%  
-- Created smart irrigation and waste management systems  
-- Led strategic financial planning that increased revenue by 25%
+#### 📢 Featured Talk  
+**Bridging the Gap: Direct Researcher–Farmer Connections**  
+▶️ [View Google Slides](https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing)
 
-### **Financial Services – GO'ELIZ Group Industry** *(May 2020 – Jul 2021)*  
-- Delivered personalized financial consulting with 20% client improvement  
-- Raised investment returns by 15% through portfolio strategy
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojonugwawada&layout=compact&theme=dark" width="48%" />
+</p>
+
+---
+
+## 🧾 Education
+
+- 🎓 **MSc in Data Science** – *University of Roehampton, UK* (2025–2026)  
+- 🎓 **BSc in Banking and Finance** – *ISCG University, Benin* (2015–2018)  
+- 🏗️ **Diploma in Civil Engineering** – *Federal Polytechnic, Nigeria* (2012–2014)
 
 ---
 
 ## 🏅 Certifications
 
-- **Enterprise Development Centre** – Financial Management, HR, Marketing (2017)  
-- **Jobberman Soft Skills Training** – Workplace Readiness (2022)
+- Enterprise Development Centre – Finance, HR, Marketing (2017)  
+- Jobberman – Soft Skills Training (2022)
 
 ---
 
 ## ❤️ Volunteer Experience
 
-- **Nigerian Red Cross Society**  
-  Led disaster response & health outreach programs impacting 30% of target groups.
-
----
-
-## 📚 Research & Publications
-
-- **Optimizing Crop Yield Prediction**  
-  Machine learning models combining satellite imagery and soil sensors (2023)  
-- **Financial Inclusion in Rural Communities**  
-  Data-driven policy recommendations for microfinance institutions (2022)  
-- [📂 View Full Research Collection →](https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC)
-
----
-
-## 🗣️ Presentations & Thought Leadership
-
-### 📢 Bridging the Gap: The Power of Direct Researcher-Farmer Connections  
-This presentation explores the critical impact of building **direct communication pipelines between researchers and farmers**. It highlights:
-- Knowledge transfer from lab to farm
-- Economic benefits of cutting out intermediaries
-- Case studies from Asia, Europe, and Africa
-- A sustainable roadmap for implementation
-
-▶️ [View Google Slides Presentation](https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing)
-
----
-
-## 🌟 Featured Projects
-
-### 1. [Waste Classification Using Deep Learning](https://github.com/ojonugwawada/waste-classification-efficientnet)  
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange) ![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green)  
-Classifies waste into recyclable/organic categories using EfficientNet-B0  
-Achieved **94% accuracy** on test data  
-Designed for integration with smart waste management systems
-
-### 2. [HR Analytics: Workforce Engagement](https://github.com/ojonugwawada/hr-engagement-performance-analysis)  
-![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-blue) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11%2B-orange)  
-Analyzed salary trends and engagement patterns across departments  
-Identified 15% pay disparity in junior roles through fairness analysis  
-Developed dashboard for HR decision-making
-
-### 3. [Student Performance Prediction System](https://github.com/ojonugwawada/student-performance-prediction-system)  
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0%2B-blue) ![XGBoost](https://img.shields.io/badge/XGBoost-1.5%2B-green)  
-Classification model predicting academic outcomes (F1-score: 0.89)  
-Features: socio-economic factors, study habits, school resources  
-Includes early intervention recommendation system
-
-### 4. [Educational Decision Support System](https://github.com/ojonugwawada/educational-decision-support-system)  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0%2B-green)  
-Regression model predicting academic scores (R²: 0.82)  
-Analyzed impact of extracurricular activities on performance  
-Web interface for educators to simulate scenarios
-
----
-
-## 📄 CV & Resume
-
-📥 [Download My CV (Google Drive)](https://your-google-drive-cv-link-here)
+**Nigerian Red Cross Society**  
+Disaster response, first aid, and outreach to underserved communities.
 
 ---
 
 ## 📬 Let's Connect
 
-- **Email**: [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)  
-- **GitHub**: [github.com/ojonugwawada](https://github.com/ojonugwawada)  
-- **LinkedIn**: [Ojonugwa Wada](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
+- 📧 **Email:** [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)  
+- 🌐 **GitHub Portfolio:** [ojonugwawada.github.io](https://ojonugwawada.github.io)  
+- 🔗 **LinkedIn:** [linkedin.com/in/ojonugwa-wada-47ba55b7](https://linkedin.com/in/ojonugwa-wada-47ba55b7)
 
 ---
 
-<div align="center" style="margin-top: 40px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" alt="GitHub Stats">
-</div>
-
-> Built with ❤️ and GitHub Pages | Updated: May 2025
+> Built with ❤️ using GitHub Pages • Updated: May 2025
