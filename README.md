@@ -15,11 +15,89 @@
 
 ---
 
+## 🧑‍💼 Professional Summary
+
+I am a data scientist and business strategist passionate about driving innovation through AI, data analytics, and sustainable systems. With a strong foundation in both financial systems and machine learning, I have delivered impactful solutions in AgriTech, compliance analytics, and AI-powered business models.
+
+---
+
 ## 🛠️ Technical Skills
-- **Languages**: Python, SQL, R  
-- **ML Frameworks**: TensorFlow, Scikit-learn, PyTorch  
-- **Tools**: Pandas, Git, Tableau, Power BI  
-- **Domains**: AgriTech, Educational Analytics, Sustainability
+
+- **Languages & Tools**: Python, R, SQL, Tableau, Pandas, NumPy  
+- **AI & ML**: Image Classification, Supervised Learning, Predictive Modeling  
+- **Business & Finance**: Risk Management, Strategic Consulting, Compliance Analytics  
+- **Domains**: AgriTech, Sustainability, Educational Analytics, Financial Innovation
+
+---
+
+## 🎓 Education
+
+- **MSc in Data Science** *(In Progress)*  
+  *University of Roehampton, London, UK* (2025–2026)
+
+- **BSc in Banking and Finance**  
+  *ISCG University, Cotonou, Benin* (2015–2018)
+
+- **Diploma in Civil Engineering**  
+  *Federal Polytechnic, Nigeria* (2012–2014)
+
+---
+
+## 💼 Work Experience
+
+### **Business Analyst – XWAP Solutions Limited** *(Feb 2023 – Dec 2024)*  
+- Delivered data-driven compliance insights, reducing violation trends by 30%  
+- Developed leadership dashboards and predictive risk models  
+- Collaborated cross-functionally to streamline regulatory reporting
+
+### **Project & Business Development Manager – FINSENSE Coop Ltd** *(Nov 2021 – Jan 2023)*  
+- Launched AI-powered Agri marketplace, growing trade volume by 35%  
+- Created smart irrigation and waste management systems  
+- Led strategic financial planning that increased revenue by 25%
+
+### **Financial Services – GO'ELIZ Group Industry** *(May 2020 – Jul 2021)*  
+- Delivered personalized financial consulting with 20% client improvement  
+- Raised investment returns by 15% through portfolio strategy
+
+### **Customer Service Officer – Moniepoint MFB** *(Aug 2018 – Mar 2020)*  
+- Improved customer satisfaction by 15%  
+- Streamlined query resolution for 25% service efficiency gain
+
+---
+
+## 🏅 Certifications
+
+- **Enterprise Development Centre** – Financial Management, HR, Marketing (2017)  
+- **Jobberman Soft Skills Training** – Workplace Readiness (2022)
+
+---
+
+## ❤️ Volunteer Experience
+
+- **Nigerian Red Cross Society**  
+  Led disaster response & health outreach programs impacting 30% of target groups.
+
+---
+
+## 📚 Research & Publications
+- **Optimizing Crop Yield Prediction**  
+  Machine learning models combining satellite imagery and soil sensors (2023)  
+- **Financial Inclusion in Rural Communities**  
+  Data-driven policy recommendations for microfinance institutions (2022)  
+- [📂 View Full Research Collection →](https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC)
+
+---
+
+## 🗣️ Presentations & Thought Leadership
+
+### 📢 Bridging the Gap: The Power of Direct Researcher-Farmer Connections  
+This presentation explores the critical impact of building **direct communication pipelines between researchers and farmers**. It highlights:
+- Knowledge transfer from lab to farm
+- Economic benefits of cutting out intermediaries
+- Case studies from Asia, Europe, and Africa
+- A sustainable roadmap for implementation
+
+▶️ [View Google Slides Presentation](https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing)
 
 ---
 
@@ -51,37 +129,6 @@ Web interface for educators to simulate scenarios
 
 ---
 
-## 📚 Research & Publications
-- **Optimizing Crop Yield Prediction**  
-  Machine learning models combining satellite imagery and soil sensors (2023)  
-- **Financial Inclusion in Rural Communities**  
-  Data-driven policy recommendations for microfinance institutions (2022)  
-- [📂 View Full Research Collection →](https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC)
-
----
-
-## 🗣️ Presentations & Thought Leadership
-
-### 📢 Bridging the Gap: The Power of Direct Researcher-Farmer Connections  
-This presentation explores the critical impact of building **direct communication pipelines between researchers and farmers**. It highlights:
-- Knowledge transfer from lab to farm
-- Economic benefits of cutting out intermediaries
-- Case studies from Asia, Europe, and Africa
-- A sustainable roadmap for implementation
-
-▶️ [View Google Slides Presentation](https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing)
-
-
-
-## 📌 About Me
-
-Data scientist specializing in **AgriTech** and **educational analytics**, focused on building scalable solutions for underserved communities. Passionate about:
-- 🌾 Sustainable agriculture through IoT and predictive analytics  
-- 📊 Democratizing access to quality education via ML  
-- ⚖️ Ethical AI implementation in developing economies
-
----
-
 ## 📬 Let's Connect
 
 - **Email**: [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)  
@@ -93,3 +140,5 @@ Data scientist specializing in **AgriTech** and **educational analytics**, focus
 <div align="center" style="margin-top: 40px;">
   <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" alt="GitHub Stats">
 </div>
+
+> Built with ❤️ and GitHub Pages | Updated: May 2025
