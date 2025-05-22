@@ -46,16 +46,16 @@
 ## 🚀 Projects
 
 ### 🧠 [Waste Classification Using Deep Learning](https://github.com/ojonugwawada/waste-classification-efficientnet)  
-Classifies waste images using EfficientNet-B0 for smart waste sorting.  
+Classifies waste images into recyclable and organic categories using EfficientNet-B0 for smart environmental management. 
 **Tech:** TensorFlow, OpenCV | **Accuracy:** 94%
 
 ### 📊 [HR Analytics: Workforce Engagement](https://github.com/ojonugwawada/hr-engagement-performance-analysis)  
-Analyzes HR patterns, fairness, and compensation.  
-**Tech:** Pandas, Seaborn | **Insight:** Detected 15% pay disparity
+Analyzes HR data to uncover trends in employee engagement, compensation fairness, and retention. 
+**Tech:** Pandas, Seaborn | **Insight:** Identified 15% pay disparity in junior roles
 
-### 🎓 [Student Performance Prediction](https://github.com/ojonugwawada/student-performance-prediction-system)  
-Predicts student academic outcomes using ML classification.  
-**Tech:** Scikit-learn, XGBoost | **F1-Score:** 0.89
+### 🎓 [Student Performance Prediction](https://github.com/ojonugwawada/student-performance-prediction-system)    
+Builds a classification model to predict student academic success using socio-economic factors, study habits, and school-related variables.  
+**Tech:** Scikit-learn, XGBoost | F1-Score: 0.89
 
 ### 📘 [Educational Decision Support System](https://github.com/ojonugwawada/educational-decision-support-system)  
 Regression-based tool to forecast scores with scenario testing.  
