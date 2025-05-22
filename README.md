@@ -1,13 +1,13 @@
-<!-- Colored Banner Header -->
+<!-- 🔷 Banner -->
 <div style="background: #0A66C2; padding: 15px 30px; border-radius: 8px; color: white;">
   <h2>🌍 Data Science | AgriTech | Machine Learning Enthusiast</h2>
 </div>
 
-<!-- Profile Intro -->
+<!-- 👤 Profile Intro -->
 <table style="margin-top: 20px;">
   <tr>
     <td width="150">
-      <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" style="border-radius: 50%; border: 3px solid #ccc; object-fit: cover; padding: 4px;" />
+      <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" height="140" style="border-radius: 50%; border: 3px solid #ccc; object-fit: cover; padding: 2px;" />
     </td>
     <td style="padding-left: 20px; vertical-align: top;">
       <h3>👋 Hi, I'm <strong>Ojonugwa Wada</strong></h3>
@@ -111,6 +111,15 @@ Disaster response, first aid, and outreach to underserved communities.
 - 📧 **Email:** [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)  
 - 🌐 **GitHub Portfolio:** [ojonugwawada.github.io](https://ojonugwawada.github.io)  
 - 🔗 **LinkedIn:** [linkedin.com/in/ojonugwa-wada-47ba55b7](https://linkedin.com/in/ojonugwa-wada-47ba55b7)
+
+<!-- Uncomment below if you upload your CV -->
+<!--
+<p align="center">
+  <a href="https://drive.google.com/file/d/your-cv-link/view">
+    <img src="https://img.shields.io/badge/CV-Download-%236f42c1?style=for-the-badge&logo=google-drive&logoColor=white" alt="Download CV" />
+  </a>
+</p>
+-->
 
 ---
 
