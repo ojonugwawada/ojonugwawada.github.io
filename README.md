@@ -1,10 +1,8 @@
-<h1 align="center">Ojonugwa Wada</h1>
-
 <p align="center">
   <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="160" style="border-radius: 50%; border: 2px solid #ccc;" />
 </p>
 
-<h2 align="center">🧠 Data Science & AgriTech</h2>
+<h2 align="center">🧠 Data Science & AgriTech Portfolio</h2>
 
 <p align="center"><em><strong>Leveraging machine learning and analytics for sustainable innovation</strong></em></p>
 
