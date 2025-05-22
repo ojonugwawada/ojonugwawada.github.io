@@ -64,10 +64,6 @@ I am a data scientist and business strategist passionate about driving innovatio
 - Delivered personalized financial consulting with 20% client improvement  
 - Raised investment returns by 15% through portfolio strategy
 
-### **Customer Service Officer – Moniepoint MFB** *(Aug 2018 – Mar 2020)*  
-- Improved customer satisfaction by 15%  
-- Streamlined query resolution for 25% service efficiency gain
-
 ---
 
 ## 🏅 Certifications
