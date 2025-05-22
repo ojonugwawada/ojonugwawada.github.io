@@ -60,6 +60,19 @@ Web interface for educators to simulate scenarios
 
 ---
 
+## 🗣️ Presentations & Thought Leadership
+
+### 📢 Bridging the Gap: The Power of Direct Researcher-Farmer Connections  
+This presentation explores the critical impact of building **direct communication pipelines between researchers and farmers**. It highlights:
+- Knowledge transfer from lab to farm
+- Economic benefits of cutting out intermediaries
+- Case studies from Asia, Europe, and Africa
+- A sustainable roadmap for implementation
+
+▶️ [View Google Slides Presentation](https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing)
+
+
+
 ## 📌 About Me
 
 Data scientist specializing in **AgriTech** and **educational analytics**, focused on building scalable solutions for underserved communities. Passionate about:
