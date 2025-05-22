@@ -4,18 +4,11 @@
       <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" style="border-radius: 50%; border: 2px solid #ccc;">
     </td>
     <td>
-      <h1>🧠 Ojonugwa Wada – Data Science & AgriTech Portfolio</h1>
+      <h1>🧠 Data Science & AgriTech Portfolio</h1>
       <p>Welcome to my personal portfolio showcasing practical applications of data science, machine learning, and research focused on <strong>AgriTech</strong>, <strong>education</strong>, <strong>sustainability</strong>, and <strong>financial inclusion</strong>.</p>
     </td>
   </tr>
 </table>
-
-
-# 🧠 Ojonugwa Wada – Data Science & AgriTech Portfolio
-
-Welcome to my personal portfolio showcasing practical applications of data science, machine learning, and research focused on **AgriTech**, **education**, **sustainability**, and **financial inclusion**. This collection highlights real-world projects that blend analytics with impact.
-
----
 
 ## 🌍 Featured Projects
 
