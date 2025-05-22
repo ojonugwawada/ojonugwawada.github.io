@@ -80,5 +80,3 @@ Data scientist specializing in **AgriTech** and **educational analytics**, focus
 <div align="center" style="margin-top: 40px;">
   <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" alt="GitHub Stats">
 </div>
-
-> Built with ❤️ and GitHub Pages | Updated: May 2025
