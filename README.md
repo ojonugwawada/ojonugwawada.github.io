@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="ojonugwa.jpg" alt="Ojonugwa Wada" width="160" style="border-radius: 50%; border: 2px solid #ccc;">
+  <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="160" style="border-radius: 50%; border: 2px solid #ccc;">
   <h1>🧠 Data Science & AgriTech Portfolio</h1>
   <p>Leveraging machine learning and analytics for sustainable innovation</p>
-  
+
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2)](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
   [![Email](https://img.shields.io/badge/Email-Contact-%23EA4335)](mailto:ojonugwawada67@gmail.com)
 </div>
@@ -21,54 +21,56 @@
 
 ### 1. [Waste Classification Using Deep Learning](https://github.com/ojonugwawada/waste-classification-efficientnet)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange) ![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green)
-- Classifies waste into recyclable/organic categories using EfficientNet-B0
-- Achieved **94% accuracy** on test data
+- Classifies waste into recyclable/organic categories using EfficientNet-B0  
+- Achieved **94% accuracy** on test data  
 - Designed for integration with smart waste management systems
 
 ### 2. [HR Analytics: Workforce Engagement](https://github.com/ojonugwawada/hr-engagement-performance-analysis)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-blue) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11%2B-orange)
-- Analyzed salary trends and engagement patterns across departments
-- Identified 15% pay disparity in junior roles through fairness analysis
+- Analyzed salary trends and engagement patterns across departments  
+- Identified 15% pay disparity in junior roles through fairness analysis  
 - Developed dashboard for HR decision-making
 
 ### 3. [Student Performance Prediction System](https://github.com/ojonugwawada/student-performance-prediction-system)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0%2B-blue) ![XGBoost](https://img.shields.io/badge/XGBoost-1.5%2B-green)
-- Classification model predicting academic outcomes (F1-score: 0.89)
-- Features: socio-economic factors, study habits, school resources
+- Classification model predicting academic outcomes (F1-score: 0.89)  
+- Features: socio-economic factors, study habits, school resources  
 - Includes early intervention recommendation system
 
 ### 4. [Educational Decision Support System](https://github.com/ojonugwawada/educational-decision-support-system)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0%2B-green)
-- Regression model predicting academic scores (R²: 0.82)
-- Analyzed impact of extracurricular activities on performance
+- Regression model predicting academic scores (R²: 0.82)  
+- Analyzed impact of extracurricular activities on performance  
 - Web interface for educators to simulate scenarios
 
 ---
 
 ## 📚 Research & Publications
 - **Optimizing Crop Yield Prediction**  
-  Machine learning models combining satellite imagery and soil sensors (2023)
+  Machine learning models combining satellite imagery and soil sensors (2025)
 - **Financial Inclusion in Rural Communities**  
-  Data-driven policy recommendations for microfinance institutions (2022)
+  Data-driven policy recommendations for microfinance institutions (2023)
 - [View Full Research Collection →](https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC)
 
 ---
 
 ## 📌 About Me
 Data scientist specializing in **AgriTech** and **educational analytics**, focused on building scalable solutions for underserved communities. Passionate about:
-- Sustainable agriculture through IoT and predictive analytics
-- Democratizing access to quality education via ML
+- Sustainable agriculture through IoT and predictive analytics  
+- Democratizing access to quality education via ML  
 - Ethical AI implementation in developing economies
 
 ---
 
 ## 📬 Let's Connect
-- **Email**: [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)
-- **GitHub**: [github.com/ojonugwawada](https://github.com/ojonugwawada)
+
+- **Email**: [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)  
+  [![Email](https://img.shields.io/badge/Email-Contact-%23EA4335)](mailto:ojonugwawada67@gmail.com)  
+- **GitHub**: [github.com/ojonugwawada](https://github.com/ojonugwawada)  
 - **LinkedIn**: [Ojonugwa Wada](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
 
 <div align="center" style="margin-top: 40px;">
   <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" alt="GitHub Stats">
 </div>
 
-> Built with ❤️ and GitHub Pages | Updated: August 2023
+> Built with ❤️ and GitHub Pages | Updated: May 2025
