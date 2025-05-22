@@ -57,9 +57,10 @@ Analyzes HR data to uncover trends in employee engagement, compensation fairness
 Builds a classification model to predict student academic success using socio-economic factors, study habits, and school-related variables.  
 **Tech:** Scikit-learn, XGBoost | F1-Score: 0.89
 
-### 📘 [Educational Decision Support System](https://github.com/ojonugwawada/educational-decision-support-system)  
-Regression-based tool to forecast scores with scenario testing.  
-**Tech:** Flask, Matplotlib | **R² Score:** 0.82
+### 🧪 [Supervised Learning Regression System](https://github.com/ojonugwawada/supervised-learning-regression-system)  
+Developed a Python-based regression tool to predict continuous values using structured numerical features.  
+**Tech:** Linear Regression, Random Forest, Scikit-learn, Plotly | **R² Score:** 0.88, **RMSE:** 2.73  
+Implemented K-Fold cross-validation and feature importance visualization. Linear Regression outperformed Random Forest, providing consistent accuracy and clear interpretability for performance diagnostics.
 
 ---
 
