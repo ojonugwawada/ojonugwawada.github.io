@@ -86,9 +86,9 @@ Regression-based tool to forecast scores with scenario testing.
 
 ## 🧾 Education
 
-- 🎓 **MSc in Data Science** – *University of Roehampton, UK* (2025–2026)  
-- 🎓 **BSc in Banking and Finance** – *ISCG University, Benin* (2015–2018)  
-- 🏗️ **Diploma in Civil Engineering** – *Federal Polytechnic, Nigeria* (2012–2014)
+- 🎓 **MSc in Data Science** – *University of Roehampton, London, UK* (2025–2026)  
+- 🎓 **BSc in Banking and Finance** – *ISCG University, Republic of Benin* (2015–2018)  
+- 🏗️ **Diploma in Civil Engineering** – *Federal Polytechnic Idah, Nigeria* (2012–2014)
 
 ---
 
