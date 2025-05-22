@@ -28,17 +28,6 @@
   </tr>
 </table>
 
-## 👋 Hi, I’m Ojonugwa Wada
-
-<img src="ojonugwa.jpg.jpeg" width="130" align="left" style="border-radius: 50%; border: 2px solid #ccc; margin-right: 20px;" />
-
-**Data Scientist | AgriTech Innovator | ML Enthusiast**  
-Leveraging data science to build smart, sustainable systems for rural development, education, and financial inclusion.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
-[![Email](https://img.shields.io/badge/Email-Contact-%23EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ojonugwawada67@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Website-Portfolio-%23117ACA?style=flat-square&logo=githubpages&logoColor=white)](https://ojonugwawada.github.io)
-
 ---
 
 ## 🧠 Skills & Tools
