@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="160" style="border-radius: 50%; border: 2px solid #ccc;" />
+  <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" style="border-radius: 50%; border: 2px solid #ccc; margin-bottom: 10px;" />
 </p>
 
-<h2 align="center">🧠 Data Science & AgriTech Portfolio</h2>
+<h2 align="center" style="margin-top: -20px;">🧠 Data Science & AgriTech Portfolio</h2>
 
-<p align="center"><em><strong>Leveraging machine learning and analytics for sustainable innovation</strong></em></p>
+<p align="center" style="margin-top: -10px;"><em><strong>Leveraging machine learning and analytics for sustainable innovation</strong></em></p>
 
-<p align="center">
+<p align="center" style="margin-top: -5px;">
   <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
