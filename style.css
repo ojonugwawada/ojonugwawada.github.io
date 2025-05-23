@@ -135,32 +135,3 @@ body.dark {
     height: 180px;
   }
 }
-
-/* Add to your stylesheet */
-.image-section {
-  display: grid;
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-figure {
-  margin: 0;
-  padding: 1rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
-  aspect-ratio: attr(width) / attr(height);
-}
-
-figcaption {
-  text-align: center;
-  margin-top: 0.5rem;
-  font-size: 0.9em;
-  color: #666;
-}
