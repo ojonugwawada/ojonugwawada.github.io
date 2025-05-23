@@ -67,18 +67,29 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 model.fit(train_data, epochs=10, validation_data=val_data)</code></pre>
   </section>
 
-  <section class="projects">
-    <h2>🖼️ Visualizations</h2>
-    <div class="image-section">
-      <h3>Confusion Matrix</h3>
-      <img src="confusion-matrix.png" alt="Confusion matrix of model predictions" style="max-width: 100%; border-radius: 8px; margin-bottom: 1rem;">
-      <h3>Training Performance</h3>
-      <img src="performance-chart.png" alt="Training and validation performance" style="max-width: 100%; border-radius: 8px;">
-    </div>
-  </section>
+  <div class="image-section">
+  <figure>
+    <img src="confusion-matrix.webp" 
+         alt="Confusion matrix showing model accuracy"
+         loading="lazy"
+         width="600" 
+         height="400"
+         srcset="confusion-matrix-400.webp 400w,
+                 confusion-matrix-600.webp 600w,
+                 confusion-matrix-800.webp 800w"
+         sizes="(max-width: 768px) 90vw, 60vw">
+    <figcaption>Model prediction distribution across classes</figcaption>
+  </figure>
 
-  <footer class="footer">
-    <p>Part of the AgriTech & Sustainability Series • Ojonugwa Wada</p>
-  </footer>
-</body>
-</html>
+  <figure>
+    <img src="performance-chart.avif"
+         alt="Training metrics graph"
+         loading="lazy"
+         width="600"
+         height="400"
+         srcset="performance-chart-400.avif 400w,
+                 performance-chart-600.avif 600w"
+         sizes="(max-width: 768px) 90vw, 60vw">
+    <figcaption>Model training and validation metrics</figcaption>
+  </figure>
+</div>
