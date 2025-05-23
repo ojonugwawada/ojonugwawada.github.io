@@ -1,126 +1,109 @@
-<!-- 🔷 Banner -->
-<div style="background: #0A66C2; padding: 15px 30px; border-radius: 8px; color: white;">
-  <h2>🌍 Data Science | AgriTech | Machine Learning Enthusiast</h2>
+<!-- 🌟 Banner Section -->
+<div align="center" style="background: #0A66C2; padding: 20px; border-radius: 8px; color: white; margin-bottom: 30px;">
+  <h1>🌍 Data Science | AgriTech | Machine Learning</h1>
+  <p>Building intelligent systems for sustainable development</p>
 </div>
 
-<!-- 👤 Profile Intro -->
-<table style="margin-top: 20px;">
-  <tr>
-    <td width="150">
-      <img src="ojonugwa.jpg.jpeg" alt="Ojonugwa Wada" width="140" height="140" style="border-radius: 50%; border: 3px solid #ccc; object-fit: cover; padding: 2px;" />
-    </td>
-    <td style="padding-left: 20px; vertical-align: top;">
-      <h3>👋 Hi, I'm <strong>Ojonugwa Wada</strong></h3>
-      <p><strong>Data Scientist | AgriTech Innovator | ML Enthusiast</strong></p>
-      <p>Leveraging data science to build smart, sustainable systems for rural development, education, and financial inclusion.</p>
-      <p>
-        <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7">
-          <img src="https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="mailto:ojonugwawada67@gmail.com">
-          <img src="https://img.shields.io/badge/Email-Contact-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-        <a href="https://ojonugwawada.github.io">
-          <img src="https://img.shields.io/badge/Portfolio-Website-%23117ACA?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+<!-- 👤 Profile Section -->
+<div align="center" style="display: flex; gap: 30px; align-items: center; margin: 40px 0;">
+  <div>
+    <img src="ojonugwa.jpg" alt="Ojonugwa Wada" width="200" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+  <div style="text-align: left;">
+    <h2>👋 Hi, I'm Ojonugwa Wada</h2>
+    <h3>Data Scientist | AgriTech Specialist | ML Engineer</h3>
+    <p>Leveraging data science to build smart systems for:</p>
+    <ul>
+      <li>♻️ Environmental sustainability</li>
+      <li>📚 Educational equity</li>
+      <li>🌾 Agricultural innovation</li>
+    </ul>
+    <div style="margin-top: 20px;">
+      <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+      </a>
+      <a href="mailto:ojonugwawada67@gmail.com">
+        <img src="https://img.shields.io/badge/Email-Contact-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+      </a>
+      <a href="https://ojonugwawada.github.io">
+        <img src="https://img.shields.io/badge/Portfolio-Website-%23117ACA?style=for-the-badge&logo=github&logoColor=white" alt="Website">
+      </a>
+    </div>
+  </div>
+</div>
 
 ---
 
-## 🧠 Skills & Tools
+## 🛠️ Technical Stack
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white)
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-### 🧠 [Waste Classification Using Deep Learning](https://github.com/ojonugwawada/waste-classification-efficientnet)  
-Classifies waste images into recyclable and organic categories using EfficientNet-B0 for smart environmental management. 
-**Tech:** TensorFlow, OpenCV | **Accuracy:** 94%
-
-### 📊 [HR Analytics: Workforce Engagement](https://github.com/ojonugwawada/hr-engagement-performance-analysis)  
-Analyzes HR data to uncover trends in employee engagement, compensation fairness, and retention. 
-**Tech:** Pandas, Seaborn | **Insight:** Identified 15% pay disparity in junior roles
-
-### 🎓 [Student Performance Prediction](https://github.com/ojonugwawada/student-performance-prediction-system)    
-Builds a classification model to predict student academic success using socio-economic factors, study habits, and school-related variables.  
-**Tech:** Scikit-learn, XGBoost | F1-Score: 0.89
-
-### 🧪 [Supervised Learning Regression System](https://github.com/ojonugwawada/supervised-learning-regression-system)  
-Developed a Python-based regression tool to predict continuous values using structured numerical features.  
-**Tech:** Linear Regression, Random Forest, Scikit-learn, Plotly | **R² Score:** 0.88, **RMSE:** 2.73  
-Implemented K-Fold cross-validation and feature importance visualization. Linear Regression outperformed Random Forest, providing consistent accuracy and clear interpretability for performance diagnostics.
+| Project | Description | Tech Stack | Metrics |
+|---------|-------------|------------|---------|
+| **[♻️ Waste Classification](https://github.com/ojonugwawada/waste-classification-efficientnet)** | Deep learning system for smart waste management | TensorFlow, OpenCV | 94% Accuracy |
+| **[📊 HR Analytics](https://github.com/ojonugwawada/hr-engagement-performance-analysis)** | Workforce engagement analysis | Pandas, Seaborn | 15% Pay Gap Identified |
+| **[🎓 Student Predictor](https://github.com/ojonugwawada/student-performance-prediction-system)** | Academic outcome prediction system | XGBoost, SHAP | F1-Score 0.89 |
+| **[📈 Regression Toolkit](https://github.com/ojonugwawada/supervised-learning-regression-system)** | Comparative model analysis | Scikit-learn, Plotly | R² 0.88 |
 
 ---
 
-## 📚 Research & Presentations
+## 📚 Research & Innovation
 
-- **Optimizing Crop Yield Prediction** – Satellite + Soil ML models (2023)  
-- **Financial Inclusion in Rural Communities** – Data for microfinance policy (2022)  
-- [📂 Full Research Collection →](https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC)
+### Publications
+- **Optimizing Crop Yield Prediction** (2023)  
+ML models combining satellite + IoT data
+- **Financial Inclusion Models** (2022)  
+Microfinance policy recommendations
 
-#### 📢 Featured Talk  
-**Bridging the Gap: Direct Researcher–Farmer Connections**  
+### Featured Presentation
+🎤 **Bridging the Gap: Direct Researcher–Farmer Connections**  
 ▶️ [View Google Slides](https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing)
 
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojonugwawada&layout=compact&theme=dark" width="48%" />
-</p>
+[View Full Research Collection](https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC)
 
 ---
 
-## 🧾 Education
-
-- 🎓 **MSc in Data Science** – *University of Roehampton, London, UK* (2025–2026)  
-- 🎓 **BSc in Banking and Finance** – *ISCG University, Republic of Benin* (2015–2018)  
-- 🏗️ **Diploma in Civil Engineering** – *Federal Polytechnic Idah, Nigeria* (2012–2014)
-
----
-
-## 🏅 Certifications
-
-- Enterprise Development Centre – Finance, HR, Marketing (2017)  
-- Jobberman – Soft Skills Training (2022)
+## 🎓 Education Timeline
+- **MSc Data Science** (2025–2026)  
+University of Roehampton, London
+- **BSc Banking & Finance** (2015–2018)  
+ISCG University, Benin
+- **Diploma Civil Engineering** (2012–2014)  
+Federal Polytechnic Idah, Nigeria
 
 ---
 
-## ❤️ Volunteer Experience
+## 📊 Development Activity
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" width="45%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojonugwawada&layout=compact&theme=dark" width="45%">
+</div>
+
+---
+
+## ❤️ Community Impact
 **Nigerian Red Cross Society**  
-Disaster response, first aid, and outreach to underserved communities.
+Disaster response & community outreach initiatives
 
 ---
 
-## 📬 Let's Connect
-- **Email**: [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)
-- **GitHub**: [github.com/ojonugwawada](https://github.com/ojonugwawada)
-- **LinkedIn**: [Ojonugwa Wada](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
+## 📬 Let's Collaborate
 
-<!-- Uncomment below if you upload your CV -->
-<!--
-<p align="center">
-  <a href="https://drive.google.com/file/d/your-cv-link/view">
-    <img src="https://img.shields.io/badge/CV-Download-%236f42c1?style=for-the-badge&logo=google-drive&logoColor=white" alt="Download CV" />
-  </a>
-</p>
--->
+- 📧 [ojonugwawada67@gmail.com](mailto:ojonugwawada67@gmail.com)
+- 💼 [LinkedIn Profile](https://www.linkedin.com/in/ojonugwa-wada-47ba55b7)
+- 🐱 [GitHub Profile](https://github.com/ojonugwawada)
 
 ---
 
-> Built with ❤️ using GitHub Pages • Updated: May 2025
+> "Data is the new soil." – David McCandless  
+> Built with ❤️ using GitHub Pages • Updated: August 2024
