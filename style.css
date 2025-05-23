@@ -1,0 +1,137 @@
+/* Root Theme Colors */
+:root {
+  --primary: #0A66C2;
+  --background: #F9FAFB;
+  --text: #1F2937;
+  --card-bg: #ffffff;
+  --card-border: #e5e7eb;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  --background: #1a1b1f;
+  --text: #e0e0e0;
+  --card-bg: #262730;
+  --card-border: #333;
+  --shadow: rgba(255, 255, 255, 0.05);
+}
+
+.banner {
+  background: var(--primary);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.dark-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: white;
+  color: var(--primary);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.profile {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.profile ul {
+  padding-left: 20px;
+}
+
+.badges a {
+  margin-right: 12px;
+  font-size: 1.8rem;
+  color: var(--primary);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.badges a:hover {
+  opacity: 0.7;
+}
+
+.projects, .research, .education {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.projects h2, .research h2, .education h2 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px var(--shadow);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background: #111827;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile img {
+    width: 180px;
+    height: 180px;
+  }
+}
