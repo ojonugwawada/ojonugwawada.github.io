@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ojonugwa Wada - Data Scientist & AgriTech Specialist" />
+  <title>Ojonugwa Wada | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header class="banner">
+    <h1>🌍 Data Science | AgriTech | Machine Learning</h1>
+    <p>Building intelligent systems for sustainable development</p>
+    <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+  </header>
+
+  <section class="profile">
+    <img src="ojonugwa.jpg" alt="Ojonugwa Wada" />
+    <div>
+      <h2>👋 Hi, I'm Ojonugwa Wada</h2>
+      <h3>Data Scientist | AgriTech Specialist | ML Engineer</h3>
+      <p>Leveraging data science to build smart systems for:</p>
+      <ul>
+        <li>♻️ Environmental sustainability</li>
+        <li>📚 Educational equity</li>
+        <li>🌾 Agricultural innovation</li>
+      </ul>
+      <div class="badges">
+        <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ojonugwawada67@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/ojonugwawada" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>🚀 Featured Projects</h2>
+    <div class="project-grid">
+      <a class="card" href="https://github.com/ojonugwawada/waste-classification-efficientnet">
+        <h3>♻️ Waste Classification</h3>
+        <p>Deep learning for smart waste management. <br><strong>Accuracy:</strong> 94%</p>
+      </a>
+      <a class="card" href="https://github.com/ojonugwawada/hr-engagement-performance-analysis">
+        <h3>📊 HR Analytics</h3>
+        <p>Workforce engagement and fairness analysis. <br><strong>Insight:</strong> 15% pay gap identified</p>
+      </a>
+      <a class="card" href="https://github.com/ojonugwawada/student-performance-prediction-system">
+        <h3>🎓 Student Predictor</h3>
+        <p>Predicts academic outcomes using behavioral data. <br><strong>F1 Score:</strong> 0.89</p>
+      </a>
+      <a class="card" href="https://github.com/ojonugwawada/supervised-learning-regression-system">
+        <h3>📈 Regression Toolkit</h3>
+        <p>Regression model comparison and deployment. <br><strong>R²:</strong> 0.88</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="research">
+    <h2>📚 Research & Innovation</h2>
+    <ul>
+      <li><strong>Optimizing Crop Yield Prediction</strong> (2023) – ML models combining satellite + IoT data</li>
+      <li><strong>Financial Inclusion Models</strong> (2022) – Microfinance policy recommendations</li>
+      <li><strong>Presentation:</strong> <a href="https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing" target="_blank">Bridging the Gap: Direct Researcher–Farmer Connections</a></li>
+      <li><strong>All Research:</strong> <a href="https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC" target="_blank">View Research Collection</a></li>
+    </ul>
+  </section>
+
+  <section class="education">
+    <h2>🎓 Education Timeline</h2>
+    <ul>
+      <li><strong>MSc Data Science</strong> (2025–2026) – University of Roehampton, London</li>
+      <li><strong>BSc Banking & Finance</strong> (2015–2018) – ISCG University, Benin</li>
+      <li><strong>Diploma in Civil Engineering</strong> (2012–2014) – Federal Polytechnic Idah, Nigeria</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>"Data is the new soil." – David McCandless</p>
+    <p>Built with ❤️ using GitHub Pages • Updated: August 2024</p>
+  </footer>
+
+  <script>
+    const toggleDarkMode = () => {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+    };
+
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('dark');
+    }
+  </script>
+</body>
+</html>
