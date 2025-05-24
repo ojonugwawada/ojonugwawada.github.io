@@ -84,26 +84,6 @@
       font-size: 0.9rem;
     }
 
-    .image-section {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-      margin-top: 1.5rem;
-    }
-
-    .image-section img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      transition: transform 0.3s ease;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    }
-
-    .image-section img:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 12px rgba(0,0,0,0.1);
-    }
-
     a {
       color: var(--primary-color);
       text-decoration: none;
@@ -131,6 +111,75 @@
     li {
       margin-bottom: 0.5rem;
     }
+
+    /* Visualization Styles */
+    .visualization-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .viz-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      overflow: hidden;
+    }
+
+    .viz-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .viz-header {
+      padding: 1.2rem;
+      border-bottom: 2px solid var(--accent-color);
+    }
+
+    .viz-header h3 {
+      color: var(--primary-color);
+      margin: 0 0 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .viz-explanation {
+      font-size: 0.9rem;
+      color: var(--text-dark);
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    .viz-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: contain;
+      padding: 1rem;
+      background: #f8f9fa;
+    }
+
+    .visualization-notice {
+      background: #f8fff4;
+      border-left: 4px solid var(--primary-color);
+      padding: 1.5rem;
+      margin: 1rem 0 2rem 0;
+      border-radius: 6px;
+    }
+
+    .visualization-notice p {
+      margin: 0 0 1rem 0;
+      font-size: 0.95rem;
+    }
+
+    .visualization-notice ul {
+      padding-left: 1.5rem;
+      margin: 0;
+    }
+
+    .visualization-notice li {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
@@ -148,7 +197,8 @@
   <section class="projects">
     <h2>📂 Project Report & Notebook</h2>
     <ul>
-      <li><a href="https://github.com/ojonugwawada/waste-classification-efficientnet" target="_blank">🔗 View GitHub Repository</a></li>
+      <li><a href="https://github.com/ojonugwawada/waste-classification-efficientnet" target="_blank">🔗 View Full GitHub Repository</a></li>
+      <li>Includes complete Jupyter Notebook, training logs, and high-resolution visualizations</li>
     </ul>
   </section>
 
@@ -189,123 +239,80 @@ model = tf.keras.Sequential([
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 model.fit(train_data, epochs=10, validation_data=val_data)</code></pre>
   </section>
-  
-  <!-- In the Visualizations section, replace with this: -->
-<section class="projects">
-  <h2>📈 Visualizations & Analysis</h2>
-  
-  <div class="visualization-grid">
 
-    <!-- Class Distribution -->
-    <div class="viz-card">
-      <div class="viz-header">
-        <h3>1. Class Distribution</h3>
-        <p class="viz-explanation">Balanced dataset with 3 waste categories showing good representation for model training</p>
-      </div>
-      <img src="performance-chart.png" alt="Class distribution analysis">
+  <section class="projects">
+    <h2>📈 Key Visualizations (Samples)</h2>
+    
+    <div class="visualization-notice">
+      <p>ℹ️ These visualizations show selected excerpts from the full analysis. For complete implementation details and interactive components:</p>
+      <ul>
+        <li>Explore the <a href="https://github.com/ojonugwawada/waste-classification-efficientnet" target="_blank">Full Project Repository</a></li>
+        <li>Review the Jupyter Notebook with executable code</li>
+        <li>Access high-resolution charts and model architecture diagrams</li>
+      </ul>
     </div>
 
-    <!-- Image Dimensions -->
-    <div class="viz-card">
-      <div class="viz-header">
-        <h3>2. Image Dimensions</h3>
-        <p class="viz-explanation">Original image size variations showing the need for resizing to 224x224 pixels</p>
+    <div class="visualization-grid">
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>1. Class Distribution</h3>
+          <p class="viz-explanation">Balanced dataset across 3 waste categories (Recyclable, Organic, Other)</p>
+        </div>
+        <img src="performance-chart.png" alt="Class distribution visualization">
       </div>
-      <img src="performance-chart1.png.jpg" alt="Image dimensions summary">
-    </div>
 
-    <!-- Dataset Split -->
-    <div class="viz-card">
-      <div class="viz-header">
-        <h3>3. Dataset Split</h3>
-        <p class="viz-explanation">Train/Validation/Test split following 70-15-15 ratio for optimal learning</p>
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>2. Image Dimensions</h3>
+          <p class="viz-explanation">Original image size distribution before resizing to 224x224px</p>
+        </div>
+        <img src="performance-chart1.png.jpg" alt="Image dimensions analysis">
       </div>
-      <img src="performance-chart2.png.jpg" alt="Dataset split visualization">
-    </div>
 
-    <!-- Training Metrics -->
-    <div class="viz-card">
-      <div class="viz-header">
-        <h3>4. Training Progress</h3>
-        <p class="viz-explanation">Convergence of training/validation metrics showing no overfitting</p>
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>3. Dataset Split</h3>
+          <p class="viz-explanation">70-15-15 split for training, validation, and testing sets</p>
+        </div>
+        <img src="performance-chart2.png.jpg" alt="Dataset split visualization">
       </div>
-      <img src="performance-chart3.png.jpg" alt="Training metrics history">
-    </div>
 
-    <!-- Classification Report -->
-    <div class="viz-card">
-      <div class="viz-header">
-        <h3>5. Classification Report</h3>
-        <p class="viz-explanation">High precision/recall scores across all waste categories</p>
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>4. Training Progress</h3>
+          <p class="viz-explanation">Convergence of training and validation metrics over epochs</p>
+        </div>
+        <img src="performance-chart3.png.jpg" alt="Training history graphs">
       </div>
-      <img src="performance-chart4.png.jpg" alt="Classification metrics">
-    </div>
 
-    <!-- Confusion Matrix -->
-    <div class="viz-card">
-      <div class="viz-header">
-        <h3>6. Confusion Matrix</h3>
-        <p class="viz-explanation">Clear diagonal dominance indicating accurate predictions</p>
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>5. Classification Report</h3>
+          <p class="viz-explanation">Precision, recall, and F1-scores for each waste category</p>
+        </div>
+        <img src="performance-chart4.png.jpg" alt="Classification metrics">
       </div>
-      <img src="performance-chart5.png.jpg" alt="Confusion matrix">
-    </div>
 
-    <!-- Sample Predictions -->
-    <div class="viz-card">
-      <div class="viz-header">
-        <h3>7. Live Predictions</h3>
-        <p class="viz-explanation">Model correctly classifies real-world waste images</p>
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>6. Confusion Matrix</h3>
+          <p class="viz-explanation">Model prediction accuracy across different classes</p>
+        </div>
+        <img src="performance-chart5.png.jpg" alt="Confusion matrix">
       </div>
-      <img src="performance-chart6.png.jpg" alt="Sample predictions">
+
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>7. Sample Predictions</h3>
+          <p class="viz-explanation">Real-world classification examples with confidence scores</p>
+        </div>
+        <img src="performance-chart6.png.jpg" alt="Prediction examples">
+      </div>
     </div>
+  </section>
 
-  </div>
-</section>
-
-<!-- Add this CSS to your style section -->
-<style>
-  .visualization-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-    margin-top: 1.5rem;
-  }
-
-  .viz-card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-    overflow: hidden;
-  }
-
-  .viz-card:hover {
-    transform: translateY(-5px);
-  }
-
-  .viz-header {
-    padding: 1.2rem;
-    border-bottom: 2px solid var(--accent-color);
-  }
-
-  .viz-header h3 {
-    color: var(--primary-color);
-    margin: 0 0 0.5rem 0;
-    font-size: 1.1rem;
-  }
-
-  .viz-explanation {
-    font-size: 0.9rem;
-    color: var(--text-dark);
-    margin: 0;
-    line-height: 1.4;
-  }
-
-  .viz-card img {
-    width: 100%;
-    height: 250px;
-    object-fit: contain;
-    padding: 1rem;
-    background: #f8f9fa;
-  }
-</style>
+  <footer class="footer">
+    <p>Part of the AgriTech & Sustainability Series • Ojonugwa Wada</p>
+  </footer>
+</body>
+</html>
