@@ -1,137 +1,98 @@
-/* Research Section */
+/* Add these fixes to your style.css */
+/* Ensure proper box model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Project Grid Fixes */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+
+.card-header {
+  margin-bottom: 1rem;
+}
+
+/* Research Section Fix */
 .research-content {
   display: grid;
-  gap: 2rem;
-  margin-top: 1.5rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .research-card {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-}
-
-.research-meta {
   display: flex;
-  gap: 1rem;
-  margin: 0.5rem 0;
-}
-
-.year, .category {
-  font-size: 0.9rem;
-  padding: 4px 12px;
-  border-radius: 20px;
-}
-
-.year {
-  background: rgba(10, 102, 194, 0.1);
-  color: var(--primary);
-}
-
-.category {
-  background: rgba(46, 125, 50, 0.1);
-  color: var(--highlight);
-}
-
-.research-link {
-  display: inline-block;
-  margin-top: 1rem;
-  color: var(--primary);
-  font-weight: 600;
-}
-
-/* Education Timeline */
-.timeline {
-  position: relative;
-  padding-left: 2rem;
-  margin-top: 2rem;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 7px;
-  top: 0;
+  flex-direction: column;
   height: 100%;
-  width: 2px;
-  background: var(--primary);
+}
+
+/* Education Timeline Fix */
+.timeline {
+  padding-left: 30px;
 }
 
 .timeline-item {
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.timeline-year {
-  position: absolute;
-  left: -2rem;
-  top: 0;
-  background: var(--card-bg);
-  padding: 4px 12px;
-  border-radius: 20px;
-  border: 1px solid var(--card-border);
-  font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 
 .timeline-content {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin-left: 2rem;
+  position: relative;
+  left: 30px;
+  width: calc(100% - 30px);
 }
 
-.timeline-details {
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
-}
-
-/* GitHub Stats */
+/* GitHub Stats Fix */
 .github-stats {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
 }
 
-.stats-card {
+.stats-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile Fixes */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline-content {
+    left: 15px;
+    width: calc(100% - 15px);
+  }
+  
+  .footer-actions {
+    flex-direction: column;
+  }
+}
+
+/* Dark Mode Color Fixes */
+body.dark .card {
   background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 8px;
-  overflow: hidden;
+  border-color: #333;
 }
 
-/* Footer Enhancements */
-.footer-actions {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  margin: 2rem 0;
+body.dark .pill {
+  background: rgba(129, 199, 132, 0.1);
 }
 
-.action-button {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  background: var(--primary);
-  color: white !important;
-  text-decoration: none;
-}
-
-.footer-meta {
-  margin-top: 2rem;
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-.quote-container {
-  margin-bottom: 2rem;
-}
-
-.quote {
-  font-style: italic;
-  font-size: 1.1rem;
+body.dark .metric {
+  background: rgba(129, 199, 132, 0.1);
 }
