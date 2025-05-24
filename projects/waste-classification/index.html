@@ -190,34 +190,122 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 model.fit(train_data, epochs=10, validation_data=val_data)</code></pre>
   </section>
   
-  <section class="projects">
-    <h2>🖼️ Visualizations</h2>
-    <div class="image-section">
-      <h3>Class Distribution</h3>
-      <img src="performance-chart.png" alt="Class distribution chart">
-      
-      <h3>Image Dimension Summary</h3>
-      <img src="performance-chart1.png.jpg" alt="Image dimensions summary">
-      
-      <h3>Dataset Split</h3>
-      <img src="performance-chart2.png.jpg" alt="Split of dataset">
-      
-      <h3>Training Logs</h3>
-      <img src="performance-chart3.png.jpg" alt="Training logs and metrics">
-      
-      <h3>Classification Report</h3>
-      <img src="performance-chart4.png.jpg" alt="Classification metrics report">
-      
-      <h3>Confusion Matrix</h3>
-      <img src="performance-chart5.png.jpg" alt="Confusion matrix heatmap">
-      
-      <h3>Sample Predictions</h3>
-      <img src="performance-chart6.png.jpg" alt="Predictions on test images">
-    </div>
-  </section>
+  <!-- In the Visualizations section, replace with this: -->
+<section class="projects">
+  <h2>📈 Visualizations & Analysis</h2>
+  
+  <div class="visualization-grid">
 
-  <footer class="footer">
-    <p>Part of the AgriTech & Sustainability Series • Ojonugwa Wada</p>
-  </footer>
-</body>
-</html>
+    <!-- Class Distribution -->
+    <div class="viz-card">
+      <div class="viz-header">
+        <h3>1. Class Distribution</h3>
+        <p class="viz-explanation">Balanced dataset with 3 waste categories showing good representation for model training</p>
+      </div>
+      <img src="performance-chart.png" alt="Class distribution analysis">
+    </div>
+
+    <!-- Image Dimensions -->
+    <div class="viz-card">
+      <div class="viz-header">
+        <h3>2. Image Dimensions</h3>
+        <p class="viz-explanation">Original image size variations showing the need for resizing to 224x224 pixels</p>
+      </div>
+      <img src="performance-chart1.png.jpg" alt="Image dimensions summary">
+    </div>
+
+    <!-- Dataset Split -->
+    <div class="viz-card">
+      <div class="viz-header">
+        <h3>3. Dataset Split</h3>
+        <p class="viz-explanation">Train/Validation/Test split following 70-15-15 ratio for optimal learning</p>
+      </div>
+      <img src="performance-chart2.png.jpg" alt="Dataset split visualization">
+    </div>
+
+    <!-- Training Metrics -->
+    <div class="viz-card">
+      <div class="viz-header">
+        <h3>4. Training Progress</h3>
+        <p class="viz-explanation">Convergence of training/validation metrics showing no overfitting</p>
+      </div>
+      <img src="performance-chart3.png.jpg" alt="Training metrics history">
+    </div>
+
+    <!-- Classification Report -->
+    <div class="viz-card">
+      <div class="viz-header">
+        <h3>5. Classification Report</h3>
+        <p class="viz-explanation">High precision/recall scores across all waste categories</p>
+      </div>
+      <img src="performance-chart4.png.jpg" alt="Classification metrics">
+    </div>
+
+    <!-- Confusion Matrix -->
+    <div class="viz-card">
+      <div class="viz-header">
+        <h3>6. Confusion Matrix</h3>
+        <p class="viz-explanation">Clear diagonal dominance indicating accurate predictions</p>
+      </div>
+      <img src="performance-chart5.png.jpg" alt="Confusion matrix">
+    </div>
+
+    <!-- Sample Predictions -->
+    <div class="viz-card">
+      <div class="viz-header">
+        <h3>7. Live Predictions</h3>
+        <p class="viz-explanation">Model correctly classifies real-world waste images</p>
+      </div>
+      <img src="performance-chart6.png.jpg" alt="Sample predictions">
+    </div>
+
+  </div>
+</section>
+
+<!-- Add this CSS to your style section -->
+<style>
+  .visualization-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .viz-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+
+  .viz-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .viz-header {
+    padding: 1.2rem;
+    border-bottom: 2px solid var(--accent-color);
+  }
+
+  .viz-header h3 {
+    color: var(--primary-color);
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+  }
+
+  .viz-explanation {
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .viz-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    padding: 1rem;
+    background: #f8f9fa;
+  }
+</style>
