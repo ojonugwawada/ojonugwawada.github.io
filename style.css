@@ -92,6 +92,12 @@ body.dark {
   margin: 1rem 0;
 }
 
+.profile-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .badges {
   margin-top: 1.5rem;
   display: flex;
@@ -360,6 +366,14 @@ body.dark {
   .profile-content {
     padding: 0;
     text-align: center;
+  }
+
+  .profile-list {
+    padding-left: 0;
+  }
+
+  .profile-list li {
+    justify-content: center;
   }
 
   .banner h1 {
