@@ -188,7 +188,7 @@ body.dark {
 }
 
 .achievements li::before {
-  content: "✓";
+  content: "\2713";
   position: absolute;
   left: 0;
   color: var(--highlight);
@@ -220,40 +220,6 @@ body.dark {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.research-card {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  padding: 1.5rem;
-  border-radius: 8px;
-}
-
-.research-meta {
-  display: flex;
-  gap: 1rem;
-  margin: 0.5rem 0;
-}
-
-.year {
-  background: rgba(10, 102, 194, 0.1);
-  color: var(--primary);
-  padding: 4px 12px;
-  border-radius: 20px;
-}
-
-.category {
-  background: rgba(46, 125, 50, 0.1);
-  color: var(--highlight);
-  padding: 4px 12px;
-  border-radius: 20px;
-}
-
-.research-link {
-  display: inline-block;
-  margin-top: 1rem;
-  color: var(--primary);
-  font-weight: 600;
 }
 
 /* Education Section */
@@ -372,27 +338,54 @@ body.dark {
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
+    padding: 1rem;
   }
-  
-  .profile-image-container {
-    width: 200px;
-    height: 200px;
+
+  .profile-content {
+    padding: 1rem 0;
   }
-  
-  .project-grid {
-    grid-template-columns: 1fr;
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
   }
-  
+
+  .banner h1 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .banner p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .dark-toggle {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    top: 10px;
+    right: 10px;
+  }
+
+  .badges {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-intro,
+  .card,
   .timeline-content {
-    left: 15px;
-    width: calc(100% - 15px);
+    text-align: left;
   }
-  
-  .footer-actions {
-    flex-direction: column;
-  }
-  
+
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-actions {
+    flex-direction: column;
   }
 }
