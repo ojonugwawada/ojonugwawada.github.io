@@ -8,7 +8,137 @@
   <meta property="og:description" content="Comparative modeling using Linear Regression and Random Forest for academic performance prediction." />
   <meta property="og:url" content="https://ojonugwawada.github.io/projects/regression-toolkit/" />
   <title>Regression Toolkit | Ojonugwa Wada</title>
-  <link rel="stylesheet" href="../../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #2E7D32;
+      --secondary-color: #81C784;
+      --accent-color: #FFD54F;
+      --text-dark: #263238;
+      --text-light: #FFFFFF;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      color: var(--text-dark);
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    .banner {
+      background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+      padding: 2.5rem 1rem;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      color: var(--text-light);
+      margin-bottom: 2rem;
+    }
+
+    .banner h1 {
+      font-size: 2.5rem;
+      margin: 0 0 1rem 0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .banner p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+
+    .projects {
+      background: white;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      max-width: 1000px;
+    }
+
+    .projects h2 {
+      color: var(--primary-color);
+      border-bottom: 3px solid var(--accent-color);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      color: var(--secondary-color);
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-light);
+      background: var(--text-dark);
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .visualization-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .viz-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      overflow: hidden;
+    }
+
+    .viz-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .viz-header {
+      padding: 1.2rem;
+      border-bottom: 2px solid var(--accent-color);
+    }
+
+    .viz-header h3 {
+      color: var(--primary-color);
+      margin: 0 0 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .viz-explanation {
+      font-size: 0.9rem;
+      color: var(--text-dark);
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    .viz-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: contain;
+      padding: 1rem;
+      background: #f8f9fa;
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
