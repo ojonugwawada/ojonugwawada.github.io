@@ -69,8 +69,8 @@ body.dark {
 }
 
 .profile-image-container {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 8px 20px var(--shadow);
