@@ -339,7 +339,7 @@ body.dark {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .profile {
     grid-template-columns: 1fr;
     justify-items: center;
