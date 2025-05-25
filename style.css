@@ -16,12 +16,9 @@ body {
   padding: 0;
   background-color: var(--background);
   background-image: var(--dot-bg);
-  background-size: 10px 10px; /* reduce spread of the dots */
+  background-size: 12px 12px;
   background-repeat: repeat;
-  background-position: center;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  background-position: top center;
   color: var(--text);
   line-height: 1.6;
   transition: background-color 0.3s ease, color 0.3s ease;
