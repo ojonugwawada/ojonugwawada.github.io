@@ -131,17 +131,19 @@ body.dark {
 .badges a {
   color: var(--primary);
   font-size: 1.8rem;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 0.3rem;
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
 .badges a:hover {
-  transform: scale(1.2);
-  box-shadow: 0 4px 12px var(--shadow);
-  opacity: 0.9;
+  transform: scale(1.15);
+  box-shadow: 0 6px 14px var(--shadow);
+  opacity: 0.95;
 }
 
 .projects,
