@@ -109,10 +109,12 @@ body.dark {
   border-radius: 8px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.75rem;
   font-size: 1rem;
   font-weight: 500;
   box-shadow: 0 2px 6px var(--shadow);
+  text-align: center;
 }
 
 .profile-list li::before {
