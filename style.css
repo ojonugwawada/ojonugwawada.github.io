@@ -69,11 +69,12 @@ body.dark {
 }
 
 .profile-image-container {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 8px 20px var(--shadow);
+  box-shadow: 0 0 0 4px var(--primary), 0 8px 20px var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-img {
@@ -84,7 +85,8 @@ body.dark {
 }
 
 .profile-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 0 0 6px var(--highlight), 0 12px 24px var(--shadow);
 }
 
 .profile-content {
