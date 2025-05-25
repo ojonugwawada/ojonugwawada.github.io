@@ -4,8 +4,137 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="HR Analytics – Workforce Engagement & Compensation" />
+  <meta property="og:title" content="HR Analytics | Ojonugwa Wada" />
+  <meta property="og:description" content="Statistical analysis of employee engagement, salary equity, and retention trends." />
+  <meta property="og:url" content="https://ojonugwawada.github.io/projects/hr-analytics/" />
   <title>HR Analytics | Ojonugwa Wada</title>
-  <link rel="stylesheet" href="../../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #1E88E5;
+      --secondary-color: #90CAF9;
+      --accent-color: #FFC107;
+      --text-dark: #263238;
+      --text-light: #FFFFFF;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      color: var(--text-dark);
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .banner {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      padding: 2.5rem 1rem;
+      text-align: center;
+      color: var(--text-light);
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .banner h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .banner p {
+      font-size: 1.1rem;
+    }
+
+    .projects {
+      background: #fff;
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .projects h2 {
+      color: var(--primary-color);
+      border-bottom: 3px solid var(--accent-color);
+      padding-bottom: 0.5rem;
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: var(--primary-color);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+      text-decoration: underline;
+    }
+
+    .visualization-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .viz-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+      overflow: hidden;
+    }
+
+    .viz-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .viz-header {
+      padding: 1.2rem;
+      border-bottom: 2px solid var(--accent-color);
+    }
+
+    .viz-header h3 {
+      color: var(--primary-color);
+      margin: 0 0 0.4rem;
+      font-size: 1.1rem;
+    }
+
+    .viz-explanation {
+      font-size: 0.9rem;
+      color: var(--text-dark);
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    .viz-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: contain;
+      padding: 1rem;
+      background: #f9f9f9;
+    }
+
+    .footer {
+      text-align: center;
+      background: var(--text-dark);
+      color: var(--text-light);
+      padding: 2rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
@@ -23,6 +152,7 @@
     <h2>📂 Project Report & Notebook</h2>
     <ul>
       <li><a href="https://github.com/ojonugwawada/hr-engagement-performance-analysis" target="_blank">🔗 View GitHub Repository</a></li>
+      <li>Includes statistical summaries, charts, and hypothesis testing</li>
     </ul>
   </section>
 
@@ -30,7 +160,7 @@
     <h2>⚙️ Tools & Technologies</h2>
     <ul>
       <li>Python, Pandas, Matplotlib, Seaborn</li>
-      <li>Exploratory data analysis</li>
+      <li>Exploratory data analysis & hypothesis testing</li>
       <li>HR metrics: engagement score, salary fairness, retention trends</li>
     </ul>
   </section>
@@ -39,9 +169,38 @@
     <h2>📊 Key Insights</h2>
     <ul>
       <li>📈 Identified 15% salary disparity among junior roles</li>
-      <li>💬 Engagement levels highest in departments with consistent recognition programs</li>
-      <li>🚪 Retention correlated with transparency in compensation reviews</li>
+      <li>💬 Engagement levels highest in departments with recognition programs</li>
+      <li>🚪 Retention improved with transparency in compensation review</li>
     </ul>
+  </section>
+
+  <section class="projects">
+    <h2>📈 Visual Summaries</h2>
+    <div class="visualization-grid">
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>1. Salary Spread</h3>
+          <p class="viz-explanation">Standard deviation and range across departments</p>
+        </div>
+        <img src="output_26_0.png" alt="Salary dispersion by department">
+      </div>
+
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>2. Engagement Scores</h3>
+          <p class="viz-explanation">Confidence interval by performance rating</p>
+        </div>
+        <img src="output_28_0.png" alt="Engagement survey confidence intervals">
+      </div>
+
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>3. Special Projects Load</h3>
+          <p class="viz-explanation">Project count variation by job position</p>
+        </div>
+        <img src="output_30_0.png" alt="Workload distribution by job title">
+      </div>
+    </div>
   </section>
 
   <footer class="footer">
