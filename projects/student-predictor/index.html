@@ -4,8 +4,137 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Student Performance Prediction | Ojonugwa Wada" />
+  <meta property="og:title" content="Student Predictor | Ojonugwa Wada" />
+  <meta property="og:description" content="Machine learning-based classification of student academic risk using behavioral and demographic data." />
+  <meta property="og:url" content="https://ojonugwawada.github.io/projects/student-performance/" />
   <title>Student Predictor | Ojonugwa Wada</title>
-  <link rel="stylesheet" href="../../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #4A148C;
+      --secondary-color: #BA68C8;
+      --accent-color: #FFD740;
+      --text-dark: #263238;
+      --text-light: #FFFFFF;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      color: var(--text-dark);
+      margin: 0;
+      padding: 0;
+      background-color: #f4f5f7;
+    }
+
+    .banner {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      padding: 2.5rem 1rem;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      color: var(--text-light);
+    }
+
+    .banner h1 {
+      font-size: 2.4rem;
+      margin: 0 0 1rem 0;
+    }
+
+    .banner p {
+      font-size: 1.1rem;
+      margin: 0.3rem 0;
+    }
+
+    .projects {
+      background: white;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      max-width: 1000px;
+    }
+
+    .projects h2 {
+      color: var(--primary-color);
+      border-bottom: 3px solid var(--accent-color);
+      padding-bottom: 0.5rem;
+      font-size: 1.6rem;
+      margin-bottom: 1.2rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: var(--primary-color);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-light);
+      background: var(--text-dark);
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    .visualization-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .viz-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .viz-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .viz-header {
+      padding: 1.2rem;
+      border-bottom: 2px solid var(--accent-color);
+    }
+
+    .viz-header h3 {
+      margin: 0 0 0.4rem;
+      color: var(--primary-color);
+      font-size: 1.1rem;
+    }
+
+    .viz-explanation {
+      font-size: 0.9rem;
+      color: var(--text-dark);
+      margin: 0;
+    }
+
+    .viz-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: contain;
+      padding: 1rem;
+      background: #f8f9fa;
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
@@ -39,6 +168,19 @@
     <h2>📊 Model Performance</h2>
     <p><strong>F1-Score:</strong> 0.89</p>
     <p>The model achieved high accuracy in identifying students at risk, supporting school policies on academic support and curriculum adjustments.</p>
+  </section>
+
+  <section class="projects">
+    <h2>📈 Key Visualization</h2>
+    <div class="visualization-grid">
+      <div class="viz-card">
+        <div class="viz-header">
+          <h3>Internet Quality vs Exam Score</h3>
+          <p class="viz-explanation">Colored by Mental Health Rating</p>
+        </div>
+        <img src="student_output_1.png" alt="Heatmap of Internet Quality and Mental Health">
+      </div>
+    </div>
   </section>
 
   <footer class="footer">
