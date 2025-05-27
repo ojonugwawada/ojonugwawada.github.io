@@ -5,42 +5,146 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Ojonugwa Wada | Research - Data Science & AgriTech Publications" />
   <title>Research | Ojonugwa Wada</title>
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary: #0A66C2;
+      --text: #1F2937;
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --card-border: #e5e7eb;
+      --highlight: #2E7D32;
+      --background-gradient: linear-gradient(135deg, #e0f2f1, #e3f2fd);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text);
+      background: var(--background-gradient);
+      line-height: 1.6;
+    }
+
+    .banner {
+      background: var(--primary);
+      color: white;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+
+    .banner a {
+      color: white;
+      text-decoration: underline;
+      font-size: 0.95rem;
+    }
+
+    .container {
+      max-width: 900px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      margin: 3rem auto;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      backdrop-filter: blur(10px);
+    }
+
+    .container h2 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 1.5rem;
+    }
+
+    li strong {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    small {
+      display: block;
+      font-size: 0.9rem;
+      color: #444;
+      margin-top: 0.3rem;
+    }
+
+    a {
+      color: var(--highlight);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 2rem;
+        margin: 2rem 1rem;
+      }
+
+      .banner {
+        padding: 3rem 1rem 2rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
     <h1>🔬 Research & Innovation</h1>
     <p>Projects, publications, and presentations at the intersection of data science, sustainability, and society.</p>
-    <p><a href="../index.html" style="color:white; text-decoration:underline;">← Back to Portfolio</a></p>
+    <p><a href="../index.html">← Back to Portfolio</a></p>
   </header>
 
-  <section class="research">
-    <h2>📄 Featured Publications</h2>
-    <ul>
-      <li><strong>Optimizing Crop Yield Prediction</strong> (2023)<br><small>Machine learning models combining satellite imagery and soil sensors for improved agricultural decision-making.</small></li>
-      <li><strong>Financial Inclusion in Rural Communities</strong> (2022)<br><small>Data-driven frameworks for developing inclusive microfinance and mobile banking models.</small></li>
-    </ul>
-  </section>
+  <main class="container">
+    <section>
+      <h2>📄 Featured Publications</h2>
+      <ul>
+        <li><strong>Optimizing Crop Yield Prediction</strong> (2023)<br>
+          <small>Machine learning models combining satellite imagery and soil sensors for improved agricultural decision-making.</small>
+        </li>
+        <li><strong>Financial Inclusion in Rural Communities</strong> (2022)<br>
+          <small>Data-driven frameworks for developing inclusive microfinance and mobile banking models.</small>
+        </li>
+      </ul>
+    </section>
 
-  <section class="research">
-    <h2>🎤 Presentations</h2>
-    <ul>
-      <li><strong>Bridging the Gap: Direct Researcher–Farmer Connections</strong><br>
-        <a href="https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing" target="_blank">▶ View Google Slides</a>
-      </li>
-    </ul>
-  </section>
+    <section>
+      <h2>🎤 Presentations</h2>
+      <ul>
+        <li>
+          <strong>Bridging the Gap: Direct Researcher–Farmer Connections</strong><br>
+          <a href="https://docs.google.com/presentation/d/1PB4L382Rwar8u_ZxUJ-5PSCafH1m8Lcy/edit?usp=sharing" target="_blank">▶ View Google Slides</a>
+        </li>
+      </ul>
+    </section>
 
-  <section class="research">
-    <h2>📂 Full Archive</h2>
-    <p>
-      Access all project reports, research briefs, and supporting documentation:<br>
-      <a href="https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC" target="_blank">🔗 View Google Drive Research Collection</a>
-    </p>
-  </section>
+    <section>
+      <h2>📂 Full Archive</h2>
+      <p>
+        Access all project reports, research briefs, and supporting documentation:<br>
+        <a href="https://drive.google.com/drive/folders/1vDd7Ap0YxlxNsPchmGP1xHMgB8uR_mUC" target="_blank">
+          🔗 View Google Drive Research Collection
+        </a>
+      </p>
+    </section>
+  </main>
 
   <footer class="footer">
-    <p>Built with ❤️ by Ojonugwa Wada • Powered by GitHub Pages</p>
+    <p>© 2024 Ojonugwa Wada – Powered by GitHub Pages</p>
   </footer>
 </body>
 </html>
