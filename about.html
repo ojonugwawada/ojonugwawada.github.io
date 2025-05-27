@@ -1,54 +1,86 @@
-from pathlib import Path
-
-# Create the about.html content based on the user's draft
-about_me_html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="About Ojonugwa Wada - Data Scientist & AgriTech Specialist" />
-  <title>About Me | Ojonugwa Wada</title>
+  <meta name="description" content="Ojonugwa Wada - Data Scientist & AgriTech Specialist" />
+  <title>Ojonugwa Wada | Portfolio</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="banner">
-    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
-    <h1>👤 About Me</h1>
+    <button class="dark-toggle" onclick="toggleDarkMode()">🌓 Toggle Theme</button>
+    <h1>🌍 Data Science | AgriTech | Machine Learning</h1>
+    <p>Building intelligent systems for sustainable development</p>
   </header>
 
-  <section class="about-section">
-    <div class="card">
-      <h2>Hi, I'm Ojonugwa Wada</h2>
-      <p>
-        I am a data scientist, machine learning enthusiast, and AgriTech innovator committed to transforming underserved rural communities through technology, research, and policy.
-      </p>
-      <p>
-        I grew up on a small farm in rural Nigeria, where persistent challenges like flood disasters, lack of financial access, and poor infrastructure shaped my passion to engineer sustainable solutions. Despite the economic hardship my family faced, I pursued education with grit and graduated with a Diploma in Civil Engineering, a Bachelor's in Banking and Finance, and I am currently earning my MSc in Data Science at the University of Roehampton, London.
-      </p>
-      <p>
-        My journey from rural hardship to advanced data science reflects a deep commitment to using data-driven innovation to solve real-world problems. Through my projects — like an AI-based waste classification system, student performance predictor, HR analytics dashboard, and regression toolkit — I apply machine learning to social impact domains.
-      </p>
-      <p>
-        I also lead field-based research initiatives that bridge rural communities and academic researchers, culminating in partnerships such as the formal agreement with CEPODRA Civil Association in Peru. Together, we co-develop data systems to support local farming communities. My work has also inspired research papers on mechanized agriculture and AI for pest control.
-      </p>
-      <p>
-        My mission is to advance rural inclusion, build ethical technology, and promote grassroots research collaboration. This personal site showcases the work, research, and ideas that drive me.
-      </p>
+  <section class="profile">
+    <div class="profile-image-container">
+      <img src="ojonugwa.jpg" alt="Ojonugwa Wada" class="profile-img" />
+    </div>
+
+    <nav class="simple-nav">
+      <a href="about.html">About Me</a>
+      <a href="projects/index.html">Projects</a>
+      <a href="research/index.html">Research</a>
+      <a href="education.html">Education</a>
+    </nav>
+
+    <div class="badges">
+      <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:ojonugwawada67@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/ojonugwawada" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+
+  <section class="github-stats">
+    <h2>📊 GitHub Activity</h2>
+    <div class="stats-grid">
+      <div class="stats-card">
+        <img src="https://github-readme-stats.vercel.app/api?username=ojonugwawada&show_icons=true&theme=dark" alt="GitHub Stats" />
+      </div>
+      <div class="stats-card">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojonugwawada&layout=compact&theme=dark" alt="Top Languages" />
+      </div>
     </div>
   </section>
 
   <footer class="footer">
-    <p>© 2024 Ojonugwa Wada – All rights reserved</p>
+    <div class="quote-container">
+      <p class="quote">"Data is the new soil." – David McCandless</p>
+    </div>
+    <div class="footer-actions">
+      <a href="/blog" class="action-button">
+        <i class="fas fa-blog"></i>
+        <span>Technical Blog</span>
+      </a>
+      <a href="/research/index.html" class="action-button">
+        <i class="fas fa-microscope"></i>
+        <span>Research Portal</span>
+      </a>
+    </div>
+    <div class="footer-meta">
+      <p>© 2024 Ojonugwa Wada – All rights reserved</p>
+    </div>
   </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('darkMode', document.body.classList.contains('dark'));
+    }
+
+    if (localStorage.getItem('darkMode') === 'true') {
+      document.body.classList.add('dark');
+    }
+  </script>
 </body>
 </html>
-"""
-
-# Save to a file
-about_me_path = Path("/mnt/data/about.html")
-about_me_path.write_text(about_me_html.strip())
-
-about_me_path.name  # Return filename only for download reference
