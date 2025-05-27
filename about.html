@@ -1,0 +1,54 @@
+from pathlib import Path
+
+# Create the about.html content based on the user's draft
+about_me_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Ojonugwa Wada - Data Scientist & AgriTech Specialist" />
+  <title>About Me | Ojonugwa Wada</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="banner">
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    <h1>👤 About Me</h1>
+  </header>
+
+  <section class="about-section">
+    <div class="card">
+      <h2>Hi, I'm Ojonugwa Wada</h2>
+      <p>
+        I am a data scientist, machine learning enthusiast, and AgriTech innovator committed to transforming underserved rural communities through technology, research, and policy.
+      </p>
+      <p>
+        I grew up on a small farm in rural Nigeria, where persistent challenges like flood disasters, lack of financial access, and poor infrastructure shaped my passion to engineer sustainable solutions. Despite the economic hardship my family faced, I pursued education with grit and graduated with a Diploma in Civil Engineering, a Bachelor's in Banking and Finance, and I am currently earning my MSc in Data Science at the University of Roehampton, London.
+      </p>
+      <p>
+        My journey from rural hardship to advanced data science reflects a deep commitment to using data-driven innovation to solve real-world problems. Through my projects — like an AI-based waste classification system, student performance predictor, HR analytics dashboard, and regression toolkit — I apply machine learning to social impact domains.
+      </p>
+      <p>
+        I also lead field-based research initiatives that bridge rural communities and academic researchers, culminating in partnerships such as the formal agreement with CEPODRA Civil Association in Peru. Together, we co-develop data systems to support local farming communities. My work has also inspired research papers on mechanized agriculture and AI for pest control.
+      </p>
+      <p>
+        My mission is to advance rural inclusion, build ethical technology, and promote grassroots research collaboration. This personal site showcases the work, research, and ideas that drive me.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Ojonugwa Wada – All rights reserved</p>
+  </footer>
+</body>
+</html>
+"""
+
+# Save to a file
+about_me_path = Path("/mnt/data/about.html")
+about_me_path.write_text(about_me_html.strip())
+
+about_me_path.name  # Return filename only for download reference
