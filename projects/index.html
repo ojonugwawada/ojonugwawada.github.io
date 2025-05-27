@@ -7,6 +7,66 @@
   <title>Projects | Ojonugwa Wada</title>
   <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* PROJECTS PAGE SPECIFIC STYLES */
+    .projects { max-width: 1400px; margin: 3rem auto; padding: 0 1.5rem; }
+    .back-link {
+      position: absolute; top: 20px; left: 20px; color: white !important;
+      text-decoration: none; display: flex; align-items: center; gap: 0.5rem;
+      font-weight: 500; transition: opacity 0.3s ease;
+    }
+    .back-link:hover { opacity: 0.9; }
+    .project-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem; margin-top: 2rem;
+    }
+    .card {
+      background: var(--card-bg); border: 1px solid var(--card-border);
+      border-radius: 12px; padding: 1.5rem; transition: transform 0.3s ease, 
+      box-shadow 0.3s ease; display: flex; flex-direction: column; min-height: 320px;
+    }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px var(--shadow); }
+    .card-header {
+      border-bottom: 2px solid var(--primary); padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+    .card-header h3 { margin: 0 0 0.75rem; font-size: 1.4rem; color: var(--primary); }
+    .tech-stack { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .pill {
+      background: rgba(10, 102, 194, 0.15); color: var(--primary);
+      padding: 4px 12px; border-radius: 20px; font-size: 0.85rem;
+      font-weight: 500; transition: background 0.3s ease;
+    }
+    .problem-statement {
+      color: var(--text); opacity: 0.85; font-style: italic;
+      margin: 0 0 1rem; font-size: 0.95rem; line-height: 1.5;
+    }
+    .achievements { list-style: none; padding: 0; margin: 0 0 1.5rem; flex-grow: 1; }
+    .achievements li {
+      padding-left: 1.75rem; position: relative; margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+    }
+    .achievements li::before {
+      content: '✓'; position: absolute; left: 0;
+      color: var(--highlight); font-weight: bold;
+    }
+    .metrics { display: flex; gap: 1rem; margin-top: auto; flex-wrap: wrap; }
+    .metric {
+      background: rgba(46, 125, 50, 0.1); color: var(--highlight);
+      padding: 6px 14px; border-radius: 20px; font-size: 0.9rem;
+      font-weight: 500; display: flex; align-items: center;
+    }
+    body.dark .card-header h3 { color: var(--highlight); }
+    body.dark .pill { background: rgba(129, 199, 132, 0.15); }
+    body.dark .metric { background: rgba(129, 199, 132, 0.15); }
+    @media (max-width: 768px) {
+      .projects { margin: 2rem auto; }
+      .project-grid { grid-template-columns: 1fr; }
+      .back-link { top: 15px; left: 15px; font-size: 0.95rem; }
+      .card { min-height: auto; }
+      .card-header h3 { font-size: 1.3rem; }
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
@@ -112,5 +172,14 @@
 
     </div>
   </section>
+
+  <script>
+    // Dark mode toggle persistence
+    document.addEventListener('DOMContentLoaded', function() {
+      if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark');
+      }
+    });
+  </script>
 </body>
 </html>
