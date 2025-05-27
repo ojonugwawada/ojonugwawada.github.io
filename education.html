@@ -7,9 +7,214 @@
   <title>Education | Ojonugwa Wada</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary: #0A66C2;
+      --background: #F9FAFB;
+      --text: #1F2937;
+      --card-bg: #ffffff;
+      --card-border: #e5e7eb;
+      --shadow: rgba(0, 0, 0, 0.08);
+      --highlight: #2E7D32;
+    }
+
+    body {
+      background-color: var(--background);
+      color: var(--text);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    body.dark {
+      --background: #1a1b1f;
+      --text: #e0e0e0;
+      --card-bg: #262730;
+      --card-border: #333;
+      --shadow: rgba(255, 255, 255, 0.05);
+      --highlight: #81C784;
+    }
+
+    .banner {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+      position: relative;
+    }
+
+    .back-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white !important;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 500;
+    }
+
+    .dark-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--card-bg);
+      color: var(--primary);
+      border: 1px solid var(--card-border);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .education {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .timeline {
+      position: relative;
+      padding: 2rem 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 2px;
+      height: 100%;
+      background: var(--primary);
+      transform: translateX(-50%);
+    }
+
+    .timeline-item {
+      position: relative;
+      width: 100%;
+      margin-bottom: 4rem;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content {
+      margin-left: auto;
+      margin-right: 2rem;
+    }
+
+    .timeline-item:nth-child(even) .timeline-content {
+      margin-right: auto;
+      margin-left: 2rem;
+    }
+
+    .timeline-year {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--card-bg);
+      padding: 0.5rem 1.5rem;
+      border-radius: 20px;
+      border: 2px solid var(--primary);
+      font-weight: 600;
+      z-index: 1;
+    }
+
+    .timeline-content {
+      width: 45%;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px var(--shadow);
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    .timeline-content::before {
+      content: '';
+      position: absolute;
+      top: 20px;
+      width: 15px;
+      height: 15px;
+      background: var(--primary);
+      border-radius: 50%;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content::before {
+      right: -28px;
+    }
+
+    .timeline-item:nth-child(even) .timeline-content::before {
+      left: -28px;
+    }
+
+    .timeline-content h3 {
+      color: var(--primary);
+      margin: 0 0 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .timeline-content p {
+      color: var(--text);
+      opacity: 0.9;
+      margin: 0 0 1rem;
+      font-size: 0.95rem;
+    }
+
+    .timeline-details {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .timeline-details li {
+      padding-left: 1.5rem;
+      position: relative;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .timeline-details li::before {
+      content: '▹';
+      position: absolute;
+      left: 0;
+      color: var(--highlight);
+    }
+
+    @media (max-width: 768px) {
+      .timeline::before {
+        left: 20px;
+      }
+
+      .timeline-content,
+      .timeline-item:nth-child(even) .timeline-content,
+      .timeline-item:nth-child(odd) .timeline-content {
+        width: 100%;
+        margin-left: 2.5rem !important;
+        margin-right: 0 !important;
+      }
+
+      .timeline-year {
+        left: 20px;
+        transform: none;
+      }
+
+      .timeline-content::before {
+        left: -28px !important;
+        right: auto !important;
+      }
+
+      .dark-toggle, .back-link {
+        top: 15px;
+        font-size: 0.95rem;
+        padding: 0.4rem 0.8rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
+    <button class="dark-toggle" onclick="toggleDarkMode()">🌓 Toggle Theme</button>
     <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
     <h1>🎓 Education Timeline</h1>
   </header>
@@ -53,5 +258,18 @@
       </div>
     </div>
   </section>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+      localStorage.setItem('darkMode', document.body.classList.contains('dark'));
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark');
+      }
+    });
+  </script>
 </body>
 </html>
