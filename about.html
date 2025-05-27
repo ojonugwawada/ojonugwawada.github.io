@@ -1,5 +1,3 @@
-# Generate the full content for about.html with Ojonugwa Wada's personal statement
-about_html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +5,99 @@ about_html = """
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="About Ojonugwa Wada - Data Scientist & AgriTech Specialist" />
   <title>About Me | Ojonugwa Wada</title>
-  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary: #0A66C2;
+      --text: #1F2937;
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --card-border: #e5e7eb;
+      --highlight: #2E7D32;
+      --background-gradient: linear-gradient(135deg, #e0f2f1, #e3f2fd);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text);
+      background: var(--background-gradient);
+      line-height: 1.6;
+    }
+
+    .banner {
+      background: var(--primary);
+      color: white;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .back-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white !important;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 500;
+    }
+
+    .about-section {
+      display: flex;
+      justify-content: center;
+      padding: 4rem 1.5rem;
+    }
+
+    .card {
+      max-width: 900px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      backdrop-filter: blur(10px);
+    }
+
+    .card h2 {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        padding: 2rem;
+      }
+
+      .card h2 {
+        font-size: 1.5rem;
+      }
+
+      .card p {
+        font-size: 0.95rem;
+      }
+
+      .back-link {
+        font-size: 0.95rem;
+        top: 15px;
+        left: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
@@ -32,11 +121,3 @@ about_html = """
   </footer>
 </body>
 </html>
-"""
-
-# Save to about.html file
-from pathlib import Path
-about_page_path = Path("/mnt/data/about.html")
-about_page_path.write_text(about_html.strip())
-
-about_page_path.name
