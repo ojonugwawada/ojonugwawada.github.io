@@ -8,6 +8,48 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .main-nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .profile-image-container {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 0 4px var(--primary), 0 8px 20px var(--shadow);
+      flex-shrink: 0;
+    }
+
+    .profile-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .profile-content {
+      flex: 1;
+    }
+  </style>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const aboutSection = document.querySelector('#about');
@@ -40,6 +82,33 @@
     <h1>🌍 Data Science | AgriTech | Machine Learning</h1>
     <p>Building intelligent systems for sustainable development</p>
   </header>
+
+  <section class="profile">
+    <div class="profile-image-container">
+      <img src="ojonugwa.jpg" alt="Ojonugwa Wada" class="profile-img" />
+    </div>
+    <div class="profile-content">
+      <h2>👋 Hi, I'm Ojonugwa Wada</h2>
+      <h3>Data Scientist | AgriTech Specialist | ML Engineer</h3>
+      <p>Leveraging data science to build smart systems for:</p>
+      <ul class="profile-list">
+        <li>♻️ Environmental sustainability</li>
+        <li>📚 Educational equity</li>
+        <li>🌾 Agricultural innovation</li>
+      </ul>
+      <div class="badges">
+        <a href="https://www.linkedin.com/in/ojonugwa-wada-47ba55b7" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:ojonugwawada67@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/ojonugwawada" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
   <section id="about" class="about-me" style="display: none">
     <div class="about-container">
