@@ -12,7 +12,7 @@
       --text: #1F2937;
       --card-bg: rgba(255, 255, 255, 0.85);
       --card-border: #e5e7eb;
-      --highlight: #2E7D32;
+      --highlight: #8B6C4B;
       --background-gradient: linear-gradient(135deg, #e0f2f1, #e3f2fd);
     }
 
@@ -66,6 +66,21 @@
       font-size: 1.75rem;
       color: var(--primary);
       margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .profile-picture {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .profile-picture img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #0A66C2;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
 
     .card p {
@@ -75,17 +90,6 @@
       word-break: break-word;
       hyphens: none;
       margin-bottom: 1rem;
-    }
-
-    .card img {
-      width: 160px;
-      height: 160px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 4px solid #0A66C2;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-      display: block;
-      margin: 0 auto 2rem;
     }
 
     .skills-section, .tools-section {
@@ -112,6 +116,39 @@
     .bar.skills { background: #8B6C4B; }
     .bar.tools { background: #D8B28F; }
 
+    .work-sample {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #8B6C4B;
+      color: white;
+      padding: 1.5rem;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .work-sample p {
+      font-size: 0.95rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .work-sample a {
+      background: #ffffff;
+      color: #0A66C2;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .location {
+      text-align: center;
+      margin: 2rem auto 1rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
     .footer {
       text-align: center;
       padding: 2rem 1rem;
@@ -127,7 +164,6 @@
       .card p {
         font-size: 0.9rem;
         line-height: 1.6;
-        text-align: justify;
       }
 
       .card h2 {
@@ -151,7 +187,9 @@
   <section class="about-section">
     <div class="card">
       <h2>Hi, I'm Ojonugwa Wada</h2>
-      <img src="oj.png" alt="Ojonugwa Wada">
+      <div class="profile-picture">
+        <img src="oj.png" alt="Ojonugwa Wada">
+      </div>
       <p>I’m a data scientist, machine learning enthusiast, and AgriTech innovator on a mission to uplift underserved rural communities through the power of technology, research, and policy. Having grown up on a small farm in rural Nigeria, I witnessed the harsh realities of recurring floods, limited access to financial resources, and inadequate infrastructure. These experiences ignited my passion for creating sustainable solutions. Despite financial challenges, I pursued my education with unwavering determination, obtained a Diploma in Civil Engineering, a Bachelor’s degree in Banking and Finance, and I am currently advancing my knowledge with an MSc in Data Science at the University of Roehampton in London.</p>
       <p>My journey from rural struggles to the forefront of data science reflects my dedication to leveraging innovation for social good. My portfolio showcases a range of machine learning and analytics projects, including an AI-driven waste classification system, a predictive dashboard for student performance, HR analytics tools, and regression model toolkits, each designed to address real-world challenges. In addition to my technical work, I lead field research initiatives that connect rural communities with academic institutions.</p>
       <p>A key achievement was establishing a formal research partnership with CEPODRA Civil Association in Peru, where we co-develop data systems to support local farmers and enhance disaster resilience. My published research explores topics such as mechanized agriculture and AI-based pest control solutions. Driven by a commitment to rural inclusion, ethical technology, and grassroots research collaboration, I am dedicated to building systems that empower communities and drive meaningful change.</p>
@@ -167,9 +205,6 @@
     <div class="bar skills"><span>● Statistical research & experimental design</span><span>92%</span></div>
     <div class="bar skills"><span>● Financial data modeling</span><span>93%</span></div>
     <div class="bar skills"><span>● AgriTech integration and sustainability analytics</span><span>94%</span></div>
-    <div class="bar skills"><span>● Strategic communication planning</span><span>90%</span></div>
-    <div class="bar skills"><span>● Graphic design</span><span>88%</span></div>
-    <div class="bar skills"><span>● Social media strategy and analytics</span><span>90%</span></div>
   </section>
 
   <section class="tools-section">
@@ -181,24 +216,19 @@
     <div class="bar tools"><span>● Jupyter Notebook / VS Code</span><span>96%</span></div>
     <div class="bar tools"><span>● Power BI / Excel (Advanced)</span><span>92%</span></div>
     <div class="bar tools"><span>● Google Colab / Kaggle</span><span>94%</span></div>
-    <div class="bar tools"><span>● Adobe InDesign</span><span>85%</span></div>
-    <div class="bar tools"><span>● Adobe Premiere Pro / VN / Capcut</span><span>85%</span></div>
-    <div class="bar tools"><span>● Adobe Express</span><span>90%</span></div>
-    <div class="bar tools"><span>● Canva</span><span>95%</span></div>
-    <div class="bar tools"><span>● Google Analytics / AdWords</span><span>92%</span></div>
   </section>
 
-  <section class="work-sample" style="max-width: 900px; margin: 2rem auto; padding: 2rem; background: #f5f7fa; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.05);">
-  <h2 style="color: #0A66C2; font-size: 1.5rem; margin-bottom: 1rem;">Work Sample</h2>
-  <p style="text-align: justify; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
-    This interactive dashboard analyzes student lifestyle factors and academic performance using machine learning. Users can explore key metrics, simulate performance predictions, and evaluate model outcomes in real time. Built with Streamlit, Scikit-learn, and Plotly, this tool highlights practical data science for education.
-  </p>
-  <div style="text-align: center;">
-    <a href="https://student-insight.streamlit.app/" target="_blank" style="background: #0A66C2; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600;">
-      ▶ View Project
-    </a>
+  <section class="work-sample">
+    <h2>Work Sample</h2>
+    <p>
+      An interactive Streamlit dashboard for predicting student performance based on lifestyle patterns and behavioral metrics using machine learning. Explore academic trends, evaluate models, and simulate outcomes dynamically.
+    </p>
+    <a href="https://student-insight.streamlit.app/" target="_blank">▶ View Project</a>
+  </section>
+
+  <div class="location">
+    📍 London, United Kingdom
   </div>
-</section>
 
   <footer class="footer">
     <p>© 2024 Ojonugwa Wada – All rights reserved</p>
