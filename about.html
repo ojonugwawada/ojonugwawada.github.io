@@ -47,7 +47,7 @@
     .about-section {
       display: flex;
       justify-content: center;
-      padding: 4rem 1.5rem;
+      padding: 4rem 1.5rem 2rem;
     }
 
     .card {
@@ -76,6 +76,45 @@
       hyphens: none;
       margin-bottom: 1rem;
     }
+
+    .profile-section {
+      text-align: center;
+      margin-top: -2rem;
+    }
+
+    .profile-section img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #0A66C2;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1.5rem;
+    }
+
+    .skills-section, .tools-section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .skills-section h2, .tools-section h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .bar {
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 10px 0;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .bar.skills { background: #8B6C4B; }
+    .bar.tools { background: #D8B28F; }
 
     .footer {
       text-align: center;
@@ -121,6 +160,40 @@
       <p>A key achievement was establishing a formal research partnership with CEPODRA Civil Association in Peru, where we co-develop data systems to support local farmers and enhance disaster resilience. My published research explores topics such as mechanized agriculture and AI-based pest control solutions. Driven by a commitment to rural inclusion, ethical technology, and grassroots research collaboration, I am dedicated to building systems that empower communities and drive meaningful change.</p>
     </div>
   </section>
+
+  <section class="profile-section">
+    <img src="oj.png" alt="Ojonugwa Wada">
+  </section>
+
+  <section class="skills-section">
+  <h2>Skills</h2>
+  <div class="bar skills"><span>● Data analysis and visualization</span><span>98%</span></div>
+  <div class="bar skills"><span>● Machine learning model development</span><span>96%</span></div>
+  <div class="bar skills"><span>● Feature engineering & preprocessing</span><span>95%</span></div>
+  <div class="bar skills"><span>● Dashboard creation (Streamlit, Power BI)</span><span>97%</span></div>
+  <div class="bar skills"><span>● Statistical research & experimental design</span><span>92%</span></div>
+  <div class="bar skills"><span>● Financial data modeling</span><span>93%</span></div>
+  <div class="bar skills"><span>● AgriTech integration and sustainability analytics</span><span>94%</span></div>
+  <div class="bar skills"><span>● Strategic communication planning</span><span>98%</span></div>
+  <div class="bar skills"><span>● Graphic design</span><span>98%</span></div>
+  <div class="bar skills"><span>● Social media strategy and analytics</span><span>98%</span></div>
+</section>
+
+<section class="tools-section">
+  <h2>Tools / Software</h2>
+  <div class="bar tools"><span>● Python (Pandas, NumPy, Scikit-learn)</span><span>98%</span></div>
+  <div class="bar tools"><span>● Streamlit / Plotly / Matplotlib</span><span>96%</span></div>
+  <div class="bar tools"><span>● SQL & database management</span><span>95%</span></div>
+  <div class="bar tools"><span>● Git / GitHub</span><span>97%</span></div>
+  <div class="bar tools"><span>● Jupyter Notebook / VS Code</span><span>96%</span></div>
+  <div class="bar tools"><span>● Power BI / Excel (Advanced)</span><span>92%</span></div>
+  <div class="bar tools"><span>● Google Colab / Kaggle</span><span>94%</span></div>
+  <div class="bar tools"><span>● Adobe InDesign</span><span>98%</span></div>
+  <div class="bar tools"><span>● Adobe Premiere Pro/VN/Capcut</span><span>98%</span></div>
+  <div class="bar tools"><span>● Adobe Express</span><span>98%</span></div>
+  <div class="bar tools"><span>● Canva</span><span>98%</span></div>
+  <div class="bar tools"><span>● Google Analytics / AdWords</span><span>98%</span></div>
+</section>
 
   <footer class="footer">
     <p>© 2024 Ojonugwa Wada – All rights reserved</p>
