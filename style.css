@@ -270,7 +270,9 @@ body {
   .footer-actions {
     flex-direction: column;
   }
+}
 
+/* ✅ Image Preview Section Styles (OUTSIDE media query) */
 .data-image-preview {
   max-width: 1200px;
   margin: 2rem auto;
@@ -289,4 +291,3 @@ body {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   margin: 0;
 }
-
