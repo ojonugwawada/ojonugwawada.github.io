@@ -273,17 +273,17 @@ body {
 }
 
 .data-image-preview {
-  max-width: 850px;
-  margin: 2rem auto 0 auto;
-  text-align: center;
-  padding: 0 1rem;
+  max-width: 1200px; /* same as .github-stats */
+  margin: 2rem auto;
+  padding: 0 1.5rem;
 }
 
 .data-image-preview img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  aspect-ratio: 16 / 8; /* slightly taller */
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   display: block;
-  margin: 0 auto;
+  margin-left: 0;
 }
