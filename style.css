@@ -272,19 +272,20 @@ body {
   }
 }
 
-..data-image-preview {
-  max-width: 400px;       /* Slim container */
-  margin: 0.5rem auto;    /* Reduced spacing */
+.data-image-preview {
+  max-width: 600px;       /* Wider container */
+  margin: 1rem 0;         /* Top/bottom margin only, left-aligned */
   padding: 0;
+  text-align: left;       /* Left-align contents */
 }
 
 .data-image-preview img {
-  max-width: 100%;        /* Never overflow container */
-  max-height: 180px;      /* Compact vertical size */
-  width: auto;            /* Flexible width */
-  height: auto;           /* Flexible height */
-  object-fit: contain;    /* Show full image (no crop) */
+  max-width: 100%;        /* Fill container width */
+  max-height: 280px;      /* Taller than before but not huge */
+  width: auto;            /* Natural width */
+  height: auto;           /* Natural height */
+  object-fit: contain;    /* Show full image */
   display: block;
-  margin: 0 auto;         /* Center horizontally */
-  border-radius: 4px;     /* Slightly rounded corners */
+  margin: 0;             /* Remove auto margins (left-align) */
+  border-radius: 4px;
 }
