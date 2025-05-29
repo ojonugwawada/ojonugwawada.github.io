@@ -190,44 +190,46 @@ body {
   box-shadow: 0 8px 20px var(--shadow);
 }
 
-/* Work Sample Section */
+/* Work Sample Section - Fully Theme Adaptive */
 .work-sample {
-  background-color: var(--card-bg);    /* Theme-adaptive background */
-  color: var(--text);                  /* Theme-adaptive text */
-  border: 1px solid var(--card-border);
-  border-radius: 12px;
-  box-shadow: 0 4px 12px var(--shadow);
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: var(--card-bg);   /* Changes with theme */
+  color: var(--text);                 /* Changes with theme */
   padding: 1.5rem;
+  border-radius: 16px;
   text-align: center;
+  box-shadow: 0 4px 12px var(--shadow);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .work-sample h2 {
-  font-size: 1.3rem;
-  color: var(--primary);
+  font-size: 1.5rem;
+  color: var(--primary);              /* Brand primary */
   margin-bottom: 0.8rem;
 }
 
 .work-sample p {
-  font-size: 1rem;
-  color: var(--text);
-  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--text);                 /* Matches theme */
+  margin-bottom: 1.2rem;
   line-height: 1.6;
 }
 
 .work-sample a {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  background-color: var(--primary);
-  color: white;
+  background: var(--background);      /* Light or dark background */
+  color: var(--primary);              /* Brand accent color */
   text-decoration: none;
+  padding: 10px 20px;
   border-radius: 8px;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .work-sample a:hover {
-  background-color: var(--highlight);
+  background-color: var(--highlight); /* Greenish hover */
+  color: white;
 }
 
 /* Background Image Section */
