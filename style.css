@@ -272,20 +272,17 @@ body {
   }
 }
 
-.data-image-preview {
-  max-width: 600px;       /* Wider container */
-  margin: 1rem 0;         /* Top/bottom margin only, left-aligned */
+.data-image-background {
+  max-width: 400px;
+  height: 280px; /* Matches original max-height */
+  margin: 1rem 0;
   padding-left: 1.5rem;
-  text-align: left;       /* Left-align contents */
+  border-radius: 4px;
+
+  background-image: url('dataimg.png'); /* Make sure the filename matches */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.15; /* Faint, like watermark */
 }
 
-.data-image-preview img {
-  max-width: 100%;        /* Fill container width */
-  max-height: 280px;      /* Taller than before but not huge */
-  width: auto;            /* Natural width */
-  height: auto;           /* Natural height */
-  object-fit: contain;    /* Show full image */
-  display: block;
-  margin: 0;             /* Remove auto margins (left-align) */
-  border-radius: 4px;
-}
