@@ -10,6 +10,16 @@
   --dot-bg: radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.03) 1px, transparent 0);
 }
 
+body.dark {
+  --background: #1a1b1f;
+  --text: #e0e0e0;
+  --card-bg: #262730;
+  --card-border: #333;
+  --shadow: rgba(255, 255, 255, 0.05);
+  --highlight: #81C784;
+  --dot-bg: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+}
+
 /* Dark Mode Variables */
 body.dark {
   --background: #1a1b1f;
