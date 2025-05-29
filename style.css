@@ -56,6 +56,10 @@ body {
   opacity: 0.9;
 }
 
+.banner h1 strong {
+  color: #facc15; /* Gold/yellow highlight for key words */
+}
+
 .dark-toggle {
   position: absolute;
   top: 20px;
