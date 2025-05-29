@@ -274,34 +274,39 @@ body {
 
 .data-image-background {
   width: 100%;
-  max-width: 800px;                  /* Keeps layout neat on desktop */
-  height: 400px;
-  margin: 2rem auto;                 /* Centers the whole block */
+  max-width: 900px;
+  height: 450px;
+  margin: 2rem auto;
   border-radius: 12px;
   position: relative;
-
   background-image: url('https://raw.githubusercontent.com/ojonugwawada/ojonugwawada.github.io/main/dataimg.png');
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-
-  opacity: 0.25;                     /* Faded look */
+  overflow: hidden;
 }
 
-/* Optional overlay text on top */
+/* Overlay to darken the image slightly without fading it completely */
+.data-image-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust transparency as needed */
+  z-index: 1;
+}
+
+/* Centered text on top of the image */
 .overlay-text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centers the text */
+  transform: translate(-50%, -50%);
   text-align: center;
-  color: #1f2937;
+  color: #ffffff;
   z-index: 2;
   padding: 1rem;
-  backdrop-filter: brightness(1.2);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
-
 
