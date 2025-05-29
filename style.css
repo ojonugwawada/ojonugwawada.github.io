@@ -270,7 +270,6 @@ body {
   .footer-actions {
     flex-direction: column;
   }
-}
 
 .data-image-preview {
   max-width: 1200px;
