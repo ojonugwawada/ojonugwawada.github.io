@@ -1,3 +1,196 @@
+/* Root Theme Colors */
+:root {
+  --primary: #0A66C2;
+  --background: #F9FAFB;
+  --text: #1F2937;
+  --card-bg: #ffffff;
+  --card-border: #e5e7eb;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --highlight: #2E7D32;
+  --dot-bg: radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.03) 1px, transparent 0);
+}
+
+/* Dark Mode Variables */
+body.dark {
+  --background: #1a1b1f;
+  --text: #e0e0e0;
+  --card-bg: #262730;
+  --card-border: #333;
+  --shadow: rgba(255, 255, 255, 0.05);
+  --highlight: #81C784;
+  --dot-bg: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+}
+
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  background-image: var(--dot-bg);
+  background-size: 12px 12px;
+  background-repeat: repeat;
+  background-position: top center;
+  color: var(--text);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Header/Banner */
+.banner {
+  background: var(--primary);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.banner h1 strong {
+  color: #facc15; /* Highlight key words */
+}
+
+.banner p {
+  margin: 0.5rem 0 0;
+  opacity: 0.9;
+}
+
+.dark-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: var(--card-bg);
+  color: var(--primary);
+  border: 1px solid var(--card-border);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.profile-image-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0 4px var(--primary), 0 8px 20px var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 0 0 6px var(--highlight), 0 12px 24px var(--shadow);
+}
+
+/* Navigation */
+.simple-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+.simple-nav a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  background: rgba(10, 102, 194, 0.08);
+  width: 100%;
+  text-align: center;
+}
+
+.simple-nav a:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Social Badges */
+.badges {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.badges a {
+  color: var(--primary);
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+}
+
+.badges a:hover {
+  transform: scale(1.15);
+  opacity: 0.9;
+}
+
+/* GitHub Stats */
+.github-stats {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.github-stats h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.stats-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px var(--shadow);
+}
+
+/* Work Sample Section */
 .work-sample {
   background-color: var(--card-bg);
   border: 1px solid var(--card-border);
@@ -33,4 +226,127 @@
 
 .work-sample a:hover {
   background-color: var(--highlight);
+}
+
+/* Background Image Section */
+.data-image-background {
+  width: 100%;
+  max-width: 900px;
+  height: 450px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  position: relative;
+  background-image: url('https://raw.githubusercontent.com/ojonugwawada/ojonugwawada.github.io/main/dataimg.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.data-image-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  z-index: 2;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  background: #111827;
+  color: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.quote-container {
+  margin-bottom: 2rem;
+}
+
+.quote {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.footer-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  background: var(--primary);
+  color: white !important;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.action-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.footer-meta {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+
+  .banner p {
+    font-size: 0.95rem;
+  }
+
+  .dark-toggle {
+    top: 15px;
+    right: 15px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .profile-image-container {
+    width: 160px !important;
+    height: 160px !important;
+  }
+
+  .simple-nav {
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-actions {
+    flex-direction: column;
+  }
 }
