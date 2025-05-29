@@ -273,17 +273,21 @@ body {
 }
 
 .data-image-preview {
-  max-width: 1200px; /* same as .github-stats */
+  max-width: 1200px;
   margin: 2rem auto;
   padding: 0 1.5rem;
+  text-align: left;
 }
 
 .data-image-preview img {
+  display: block;
   width: 100%;
   max-width: 100%;
-  aspect-ratio: 16 / 8; /* slightly taller */
+  height: auto;
+  aspect-ratio: 16 / 8;
+  object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-  display: block;
-  margin-left: 0;
+  margin: 0;
 }
+
