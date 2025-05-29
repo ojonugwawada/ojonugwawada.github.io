@@ -5,29 +5,206 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Ojonugwa Wada | Blog - Articles on Data Science, AgriTech, and Innovation" />
   <title>Blog | Ojonugwa Wada</title>
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --secondary: #3498db;
+      --accent: #e74c3c;
+      --light: #ecf0f1;
+      --dark: #2c3e50;
+      --gray: #95a5a6;
+      --success: #27ae60;
+      --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: var(--font-main);
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    
+    .banner {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .banner h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .banner p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+    }
+    
+    .back-link {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: opacity 0.3s;
+    }
+    
+    .back-link:hover {
+      opacity: 0.8;
+    }
+    
+    .projects {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+    }
+    
+    .projects h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: var(--dark);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      border: 1px solid #eee;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-content {
+      padding: 1.5rem;
+    }
+    
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .card p {
+      color: var(--gray);
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+    
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      color: var(--gray);
+      padding-top: 1rem;
+      border-top: 1px solid #eee;
+    }
+    
+    .footer {
+      background-color: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .banner h1 {
+        font-size: 2rem;
+      }
+      
+      .banner p {
+        font-size: 1rem;
+      }
+      
+      .project-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .banner {
+        padding: 2rem 1rem;
+      }
+      
+      .banner h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="banner">
     <h1>📝 Ojonugwa Wada's Blog</h1>
     <p>Sharing thoughts, insights, and tutorials on Data Science, AgriTech, and Innovation</p>
-    <p><a href="../index.html" style="color:white; text-decoration:underline;">← Back to Portfolio</a></p>
+    <a href="../index.html" class="back-link">
+      <i class="fas fa-arrow-left"></i> Back to Portfolio
+    </a>
   </header>
 
   <section class="projects">
-    <h2>📌 Latest Articles</h2>
+    <h2><i class="fas fa-thumbtack"></i> Latest Articles</h2>
     <div class="project-grid">
       <a class="card" href="#">
-        <h3>🌱 Using AI to Forecast Crop Yields</h3>
-        <p>How machine learning and satellite data are transforming agriculture productivity in rural Nigeria.</p>
+        <div class="card-content">
+          <h3><i class="fas fa-seedling"></i> Using AI to Forecast Crop Yields</h3>
+          <p>How machine learning and satellite data are transforming agriculture productivity in rural Nigeria.</p>
+          <div class="card-meta">
+            <span>10 min read</span>
+            <span>May 15, 2024</span>
+          </div>
+        </div>
       </a>
       <a class="card" href="#">
-        <h3>📊 Understanding Model Interpretability with SHAP</h3>
-        <p>Explaining ML predictions using SHAP values in student performance datasets.</p>
+        <div class="card-content">
+          <h3><i class="fas fa-chart-bar"></i> Understanding Model Interpretability with SHAP</h3>
+          <p>Explaining ML predictions using SHAP values in student performance datasets.</p>
+          <div class="card-meta">
+            <span>12 min read</span>
+            <span>April 28, 2024</span>
+          </div>
+        </div>
       </a>
       <a class="card" href="#">
-        <h3>🔐 Building Responsible AI for Financial Inclusion</h3>
-        <p>Designing ethical algorithms to serve underbanked populations in Africa.</p>
+        <div class="card-content">
+          <h3><i class="fas fa-lock"></i> Building Responsible AI for Financial Inclusion</h3>
+          <p>Designing ethical algorithms to serve underbanked populations in Africa.</p>
+          <div class="card-meta">
+            <span>15 min read</span>
+            <span>April 10, 2024</span>
+          </div>
+        </div>
       </a>
     </div>
   </section>
