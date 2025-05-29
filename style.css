@@ -192,12 +192,14 @@ body {
 
 /* Work Sample Section */
 .work-sample {
-  background-color: var(--card-bg);
+  background-color: var(--card-bg);    /* Theme-adaptive background */
+  color: var(--text);                  /* Theme-adaptive text */
   border: 1px solid var(--card-border);
   border-radius: 12px;
   box-shadow: 0 4px 12px var(--shadow);
   padding: 1.5rem;
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .work-sample h2 {
