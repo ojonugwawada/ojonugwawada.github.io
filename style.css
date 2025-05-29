@@ -272,20 +272,19 @@ body {
   }
 }
 
-.data-image-preview {
-  max-width: 1200px;
-  width: 100%; /* Ensures container respects max-width */
-  margin: 2rem auto;
-  padding: 0 1.5rem;
+..data-image-preview {
+  max-width: 400px;       /* Slim container */
+  margin: 0.5rem auto;    /* Reduced spacing */
+  padding: 0;
 }
 
 .data-image-preview img {
+  max-width: 100%;        /* Never overflow container */
+  max-height: 180px;      /* Compact vertical size */
+  width: auto;            /* Flexible width */
+  height: auto;           /* Flexible height */
+  object-fit: contain;    /* Show full image (no crop) */
   display: block;
-  width: 100%;
-  max-height: 420px; /* Hard limit */
-  aspect-ratio: 16 / 9; /* Optional: Prevents extreme heights */
-  object-fit: cover; /* Crop if needed */
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-  margin: 0;
+  margin: 0 auto;         /* Center horizontally */
+  border-radius: 4px;     /* Slightly rounded corners */
 }
