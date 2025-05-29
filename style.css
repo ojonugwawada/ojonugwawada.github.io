@@ -271,3 +271,19 @@ body {
     flex-direction: column;
   }
 }
+
+.data-image-preview {
+  max-width: 850px;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.data-image-preview img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+}
