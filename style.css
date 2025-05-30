@@ -227,17 +227,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f8f9fa;
-  padding: 1.5rem;
+  padding: 2rem;
+  background-color: #f6cd4c; /* Yellow tone from logo */
+  border-radius: 12px 0 0 12px;
 }
 
 .partnership-image img {
-  width: 100%;
-  max-width: 300px;
+  width: 80%;
+  max-width: 240px;
   height: auto;
   object-fit: contain;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: none;
 }
 
 .partnership-content {
@@ -284,7 +286,7 @@ body {
   min-width: 1.2rem;
 }
 
-/* Button Styling */
+/* Call-to-action Button */
 .action-button {
   display: inline-flex;
   align-items: center;
@@ -311,11 +313,12 @@ body {
 
   .partnership-image {
     order: -1;
+    border-radius: 12px 12px 0 0;
   }
 
   .partnership-image img {
-    width: 80%;
-    max-width: 250px;
+    width: 60%;
+    max-width: 200px;
   }
 }
 
