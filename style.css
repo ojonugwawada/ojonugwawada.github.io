@@ -200,83 +200,91 @@ body {
   box-shadow: 0 8px 20px var(--shadow);
 }
 
-/* Partnership Section */
+/* Partnership Section Fixes */
 .partnership-section {
-  padding: 3rem 1rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 .partnership-section h2 {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 2rem;
   color: var(--text-color);
+  font-size: 2rem;
 }
 
 .partnership-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
   background: var(--card-bg);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.partnership-content {
-  padding: 2rem;
-  flex: 1;
-}
-
-.partnership-content h3 {
-  color: var(--accent-color);
-  margin-bottom: 1rem;
-}
-
-.partnership-content ul {
-  margin: 1.5rem 0;
-  padding-left: 1.5rem;
-}
-
-.partnership-content li {
-  margin-bottom: 0.5rem;
-}
-
-.partnership-image {
-  flex: 1;
-}
-
 .partnership-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  min-height: 300px;
 }
 
-.action-button {
+.partnership-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.partnership-content h3 {
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.highlight {
+  color: #27ae60;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.partnership-features {
+  margin: 1.5rem 0;
+  padding-left: 0;
+}
+
+.partnership-features li {
+  list-style: none;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.partnership-features i {
+  color: var(--accent-color);
+  width: 1.2rem;
+}
+
+.partnership-btn {
+  align-self: flex-start;
+  margin-top: 1rem;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  background: var(--accent-color);
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: all 0.3s ease;
 }
 
-.action-button:hover {
-  background: var(--accent-hover);
-  transform: translateY(-2px);
-}
-
-/* Responsive adjustments */
+/* Responsive Fixes */
 @media (max-width: 768px) {
   .partnership-card {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   
   .partnership-image {
     order: -1;
-    height: 200px;
+    max-height: 250px;
   }
 }
 
