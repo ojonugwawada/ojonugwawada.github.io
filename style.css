@@ -297,6 +297,43 @@ body {
   opacity: 0.9;
 }
 
+/* New Contact Section */
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 2rem 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  color: white;
+}
+
+.contact-item i {
+  width: 16px;
+  opacity: 0.9;
+}
+
+.contact-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.contact-item:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/* Existing Footer Actions */
 .footer-actions {
   display: flex;
   gap: 1rem;
@@ -313,7 +350,7 @@ body {
   background: var(--primary);
   color: white !important;
   text-decoration: none;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .action-button:hover {
@@ -337,6 +374,12 @@ body {
   .banner p {
     font-size: 0.95rem;
   }
+  
+  /* Optional: Adjust contact items on mobile */
+  .contact-item {
+    font-size: 0.95rem;
+  }
+}
 
   .dark-toggle {
     top: 15px;
