@@ -200,28 +200,30 @@ body {
   box-shadow: 0 8px 20px var(--shadow);
 }
 
-/* Partnership Section Fixes */
+/* Partnership Section */
 .partnership-section {
+  padding: 3rem 1rem;
   max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 0 auto;
 }
 
 .partnership-section h2 {
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--text-color);
   font-size: 2rem;
+  color: var(--text-color);
 }
 
 .partnership-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  display: flex;
   background: var(--card-bg);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.partnership-image {
+  flex: 1;
 }
 
 .partnership-image img {
@@ -233,6 +235,7 @@ body {
 
 .partnership-content {
   padding: 2rem;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,51 +243,73 @@ body {
 
 .partnership-content h3 {
   color: var(--accent-color);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+.partnership-content p {
+  margin-bottom: 1rem;
+  color: var(--text-color);
 }
 
 .highlight {
   color: #27ae60;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-.partnership-features {
+.partnership-content ul {
   margin: 1.5rem 0;
-  padding-left: 0;
+  padding-left: 1.5rem;
+  list-style: none;
 }
 
-.partnership-features li {
-  list-style: none;
-  margin-bottom: 0.8rem;
+.partnership-content li {
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: var(--text-color);
 }
 
-.partnership-features i {
+.partnership-content li i {
   color: var(--accent-color);
-  width: 1.2rem;
+  min-width: 1.2rem;
 }
 
-.partnership-btn {
-  align-self: flex-start;
-  margin-top: 1rem;
+/* Call-to-action button */
+.action-button {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-weight: 500;
 }
 
-/* Responsive Fixes */
+.action-button:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .partnership-card {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
-  
+
   .partnership-image {
     order: -1;
-    max-height: 250px;
+    height: 200px;
+  }
+
+  .partnership-image img {
+    min-height: unset;
+    height: 200px;
   }
 }
 
